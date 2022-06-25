@@ -1,0 +1,65 @@
+39 64 type:1299686176u_soc_wrap_u_vex_soc_axi_shared_ins_flow_fifo2_w_queue_ram_d0
+	statistics:avex = 6, avey = 2, maxx = 18, maxy = 4
+50 64 type:1328654592u_soc_wrap_u_vex_soc_axi_shared_ins_flow_fifo2_w_queue_ram_d1
+	statistics:avex = 7, avey = 2, maxx = 50, maxy = 5
+39 64 type:1328657408u_soc_wrap_u_vex_soc_axi_shared_ins_flow_fifo2_w_queue_ram_d2
+	statistics:avex = 6, avey = 3, maxx = 39, maxy = 2
+
+macrostatistics:avex = 6, avey = 3, maxx = 50, maxy = 5
+
+
+
+39 36 type:1329904352u_soc_wrap_u_vex_soc_VexRiscv_cpu_ins_IBusCachedPlugin_cache_ways_0_datas_d0
+	statistics:avex = 4, avey = 5, maxx = 19, maxy = 21
+39 36 type:1329906608u_soc_wrap_u_vex_soc_VexRiscv_cpu_ins_IBusCachedPlugin_cache_ways_0_datas_d1
+	statistics:avex = 5, avey = 5, maxx = 19, maxy = 21
+
+macrostatistics:avex = 5, avey = 5, maxx = 19, maxy = 21
+
+
+
+50 52 type:1331315728u_soc_wrap_u_vex_soc_axi_shared_ins_flow_fifo1_r_queue_ram_d0
+	statistics:avex = 6, avey = 4, maxx = 11, maxy = 11
+39 56 type:1331319328u_soc_wrap_u_vex_soc_axi_shared_ins_flow_fifo1_r_queue_ram_d1
+	statistics:avex = 7, avey = 4, maxx = 20, maxy = 7
+
+macrostatistics:avex = 6, avey = 4, maxx = 20, maxy = 11
+
+
+
+39 52 type:1331326400u_soc_wrap_u_vex_soc_chip_ram_ins_ram_symbol0_d0
+	statistics:avex = 4, avey = 7, maxx = 39, maxy = 9
+39 54 type:1332294944u_soc_wrap_u_vex_soc_chip_ram_ins_ram_symbol1_d0
+	statistics:avex = 2, avey = 3, maxx = 20, maxy = 2
+39 56 type:1329734960u_soc_wrap_u_vex_soc_chip_ram_ins_ram_symbol2_d0
+	statistics:avex = 2, avey = 3, maxx = 15, maxy = 4
+39 58 type:1333661296u_soc_wrap_u_vex_soc_chip_ram_ins_ram_symbol3_d0
+	statistics:avex = 2, avey = 3, maxx = 16, maxy = 2
+
+macrostatistics:avex = 3, avey = 4, maxx = 39, maxy = 9
+
+
+
+39 28 type:1352871200RISCV_P1_TOP_0_MEMORY_5X32_3_inst_EMB18K_inst
+	statistics:avex = 7, avey = 1, maxx = 20, maxy = 1
+39 28 type:1332304464RISCV_P1_TOP_0_MEMORY_5X32_3_inst_EMB18K_inst_2_
+	statistics:avex = 7, avey = 1, maxx = 17, maxy = 1
+
+macrostatistics:avex = 7, avey = 1, maxx = 20, maxy = 1
+
+
+
+39 16 type:1329706848u_soc_wrap_u_vex_soc_VexRiscv_cpu_ins_dataCache1_ways_0_data_symbol0_d0
+	statistics:avex = 1, avey = 6, maxx = 6, maxy = 14
+39 18 type:1333010016u_soc_wrap_u_vex_soc_VexRiscv_cpu_ins_dataCache1_ways_0_data_symbol1_d0
+	statistics:avex = 1, avey = 4, maxx = 6, maxy = 13
+39 20 type:1333676000u_soc_wrap_u_vex_soc_VexRiscv_cpu_ins_dataCache1_ways_0_data_symbol2_d0
+	statistics:avex = 1, avey = 3, maxx = 6, maxy = 11
+39 22 type:1335906704u_soc_wrap_u_vex_soc_VexRiscv_cpu_ins_dataCache1_ways_0_data_symbol3_d0
+	statistics:avex = 1, avey = 4, maxx = 6, maxy = 9
+
+macrostatistics:avex = 1, avey = 4, maxx = 6, maxy = 14
+
+
+
+

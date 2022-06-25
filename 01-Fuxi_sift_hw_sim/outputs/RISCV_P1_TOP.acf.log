@@ -1,0 +1,17 @@
+-----------------------------------------------------------------------------
+Fuxi acfgen Tool Version fx2020a win64 Build 20210601-10:36:56
+Copyright (C) 2017-2021 Hercules Microelectronics Co., Ltd. All rights reserved.
+-----------------------------------------------------------------------------
+Run started on Tuesday, 14 June 22, at 22:44:29
+I/00069: Parsing ABC file:outputs/RISCV_P1_TOP.abc ...
+I/00070: Device name: P1P060N0V324C7.
+I/00071: Parsing ABC file finished.
+I/00025: Loading DeviceDB ... 
+I/00026: Loading DeviceDB finished. 
+I/00082: Loading memory map D:/CreateIC/Fuxi/Software/data/catalog/P1/P1.mmp ...
+I/00083: Loading memory map finished.
+I/00089: Change flash mode to Dual SPI mode according to option -lines 2.
+I/00065: Output ACF file to: outputs/RISCV_P1_TOP_bin.acf.
+Fuxi fx2020a win64 acfgen was successful!
+0 warning(s), 0 error(s).
+CPU Time: 4.641 seconds, Peak Memory: 499 MB

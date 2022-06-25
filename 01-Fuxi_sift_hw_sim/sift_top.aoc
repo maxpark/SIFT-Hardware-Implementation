@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aoc version="2.3" device="P1P060N0V324C7">
+	<ioConstraint>
+		<IO signal_name="clk_sys" location="IO_28P_GC_204" inst_name="io_clk_sys_inst" direction="input" operation_mode="clock"/>
+		<IO signal_name="dout_dir1_0_" location="" inst_name="io_dout_dir1_0__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="dout_dir1_1_" location="" inst_name="io_dout_dir1_1__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="dout_dir1_2_" location="" inst_name="io_dout_dir1_2__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="dout_dir1_3_" location="" inst_name="io_dout_dir1_3__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="dout_dir1_4_" location="" inst_name="io_dout_dir1_4__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="dout_dir1_5_" location="" inst_name="io_dout_dir1_5__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="dout_dir1_6_" location="" inst_name="io_dout_dir1_6__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="dout_dir1_7_" location="" inst_name="io_dout_dir1_7__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="dout_dir2_0_" location="" inst_name="io_dout_dir2_0__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="dout_dir2_1_" location="" inst_name="io_dout_dir2_1__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="dout_dir2_2_" location="" inst_name="io_dout_dir2_2__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="dout_dir2_3_" location="" inst_name="io_dout_dir2_3__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="dout_dir2_4_" location="" inst_name="io_dout_dir2_4__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="dout_dir2_5_" location="" inst_name="io_dout_dir2_5__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="dout_dir2_6_" location="" inst_name="io_dout_dir2_6__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="dout_dir2_7_" location="" inst_name="io_dout_dir2_7__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="dout_mag1_0_" location="" inst_name="io_dout_mag1_0__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="dout_mag1_1_" location="" inst_name="io_dout_mag1_1__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="dout_mag1_2_" location="" inst_name="io_dout_mag1_2__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="dout_mag1_3_" location="" inst_name="io_dout_mag1_3__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="dout_mag1_4_" location="" inst_name="io_dout_mag1_4__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="dout_mag1_5_" location="" inst_name="io_dout_mag1_5__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="dout_mag1_6_" location="" inst_name="io_dout_mag1_6__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="dout_mag1_7_" location="" inst_name="io_dout_mag1_7__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="dout_mag2_0_" location="" inst_name="io_dout_mag2_0__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="dout_mag2_1_" location="" inst_name="io_dout_mag2_1__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="dout_mag2_2_" location="" inst_name="io_dout_mag2_2__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="dout_mag2_3_" location="" inst_name="io_dout_mag2_3__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="dout_mag2_4_" location="" inst_name="io_dout_mag2_4__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="dout_mag2_5_" location="" inst_name="io_dout_mag2_5__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="dout_mag2_6_" location="" inst_name="io_dout_mag2_6__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="dout_mag2_7_" location="" inst_name="io_dout_mag2_7__inst" direction="output" operation_mode="normal"/>
+	</ioConstraint>
+</aoc>
+

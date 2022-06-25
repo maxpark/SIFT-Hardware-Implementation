@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<report title="Hercules Micro Design Report" version="1.0">
+
+  <section title="Synthesis Report">
+    <subject title="Status Summary">
+      <table>
+        <tr>
+          <td>Running status</td>
+          <td>Successful</td>
+        </tr>
+        <tr>
+          <td>Time stamp</td>
+          <td>Tue Jun 14 22:42:53 2022
+</td>
+        </tr>
+        <tr>
+          <td>Fuxi version</td>
+          <td>fx2020a win64</td>
+        </tr>
+        <tr>
+          <td>Device name</td>
+          <td>P1P060N0V324C7</td>
+        </tr>
+        <tr>
+          <td>Top module name</td>
+          <td>RISCV_P1_TOP</td>
+        </tr>
+        <tr>
+          <td>Input design file</td>
+          <td>src/ddrv1/ddr_v1.v</td>
+        </tr>
+        <tr>
+          <td>Output design file</td>
+          <td>outputs/RISCV_P1_TOP.amv</td>
+        </tr>
+        <tr>
+          <td>Output annotation file</td>
+          <td>outputs/RISCV_P1_TOP.ama</td>
+        </tr>
+      </table>
+    </subject>
+    <subject title="Resource Usage Summary">
+      <table>
+        <tr>
+          <th>Resources</th>
+          <th>Usage</th>
+        </tr>
+        <tr>
+          <td>Total LUT6 As Logic(s)</td>
+          <td>659</td>
+        </tr>
+        <tr>
+          <td>Total LUT6 As RAM(s)</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>Total LUT6 As Shift Register(s)</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>Total ADD1_A(s)</td>
+          <td>181</td>
+        </tr>
+        <tr>
+          <td>Total REG(s)</td>
+          <td>777</td>
+        </tr>
+        <tr>
+          <td>Total I/O pins</td>
+          <td>19</td>
+        </tr>
+        <tr>
+          <td>Total EMB5K(s)</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>Total EMB9K(s)</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>Total EMB18K(s)</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>Total PLL(s)</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>Total DSP(s)</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>Total DDR(s)</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>Total Serdes(s)</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>Total PCIe(s)</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>Total DLL(s)</td>
+          <td>0</td>
+        </tr>
+      </table>
+    </subject>
+  </section>
+
+</report>

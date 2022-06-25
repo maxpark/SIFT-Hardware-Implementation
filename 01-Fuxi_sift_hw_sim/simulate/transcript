@@ -1,0 +1,930 @@
+# Reading D:/software_kits/modelsim_10.6d/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.6d Feb 24 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do sift_top_rtl_sim.do
+# if {[file exists rtl_work]} {
+#     vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap -c work rtl_work
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap -c work rtl_work 
+# Modifying modelsim.ini
+# ** Warning: vmap will not overwrite local modelsim.ini.
+#          MODELSIM set to modelsim.ini.
+#          modelsim.ini was modified because copy failed
+#          The MODELSIM environment variable is used to find the modelsim.ini
+#          file, so this local copy will not be used.
+# vlog -vlog01compat -work work D:/CreateIC/Fuxi/Software/data/lib/p1_sim.v
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 11:34:48 on Jun 23,2022
+# vlog -reportprogress 300 -vlog01compat -work work D:/CreateIC/Fuxi/Software/data/lib/p1_sim.v 
+# -- Compiling module ADD1_A
+# -- Compiling module GND
+# -- Compiling module IBUF
+# -- Compiling module IOBUF
+# -- Compiling module IOC
+# -- Compiling module DFFRSEN
+# -- Compiling module LUT5_2
+# -- Compiling module LUT6
+# -- Compiling module MUXF7
+# -- Compiling module MUXF8
+# -- Compiling module OBUF
+# -- Compiling module OBUFT
+# -- Compiling module REG
+# -- Compiling module VCC
+# -- Compiling module LRAM32X2SP
+# -- Compiling module LRAM32X2QP
+# -- Compiling module LRAM32M
+# -- Compiling module LRAM64X1SP
+# -- Compiling module LRAM64X1DP
+# -- Compiling module LRAM64X1QP
+# -- Compiling module LRAM64M
+# -- Compiling module LRAM128X1SP
+# -- Compiling module LRAM128X2SP
+# -- Compiling module LRAM128X1DP
+# -- Compiling module LRAM256X1SP
+# -- Compiling module SR16X2
+# -- Compiling module SR32X1
+# -- Compiling module SR64X1
+# -- Compiling module SR128X1
+# -- Compiling module GBUF
+# -- Compiling module RBUF
+# -- Compiling module DBUF
+# -- Compiling module GBUF_GATE
+# -- Compiling module RBUF_GATE
+# -- Compiling module DBUF_GATE
+# -- Compiling module DELAY_BUF
+# -- Compiling module MULT_18X18
+# -- Compiling module UNSIGNED_18X18
+# -- Compiling module MULT_35X18
+# -- Compiling module MULT_35X35
+# -- Compiling module MULT_69X18
+# -- Compiling module MULT_69X69
+# -- Compiling module EMB5K
+# -- Compiling module EMB9K
+# -- Compiling module EMB18K
+# -- Compiling module FIFO5K
+# -- Compiling module FIFO9K
+# -- Compiling module FIFO18K
+# -- Compiling module SIO
+# -- Compiling module CS_REG_PRIM
+# -- Compiling module CS_GND_PRIM
+# -- Compiling module CS_VCC_PRIM
+# -- Compiling module CS_REG_E_PRIM
+# -- Compiling module CS_REG_CLK_PRIM
+# -- Compiling module mx2a
+# -- Compiling module CS_BUF_PRIM
+# -- Compiling module CS_INV_PRIM
+# -- Compiling module AND2
+# -- Compiling module ADC
+# -- Compiling module ADD_1BIT
+# -- Compiling module AND4
+# -- Compiling module BASIC_IO
+# -- Compiling module BRAM18KV1
+# -- Compiling module CARRY_SKIP_IN
+# -- Compiling module CARRY_SKIP_OUT
+# -- Compiling module CFG_CLK_GATING
+# -- Compiling module CFG_DYN_SWITCH_S2
+# -- Compiling module CFGINV
+# -- Compiling module CFGMUX10_cmos
+# -- Compiling module CFGMUX10S4
+# -- Compiling module CFGMUX12_43
+# -- Compiling module CFGMUX16K
+# -- Compiling module CFGMUX16S4
+# -- Compiling module CFGMUX16
+# -- Compiling module CFGMUX20I0
+# -- Compiling module CFGMUX24
+# -- Compiling module CFGMUX2I0
+# -- Compiling module CFGMUX2S1
+# -- Compiling module CFGMUX2
+# -- Compiling module CFGMUX3I0
+# -- Compiling module CFGMUX3I1
+# -- Compiling module CFGMUX3
+# -- Compiling module CFGMUX4_GCO
+# -- Compiling module CFGMUX4S2
+# -- Compiling module CFGMUX4
+# -- Compiling module CFGMUX5
+# -- Compiling module CFGMUX6_32
+# -- Compiling module CFGMUX6
+# -- Compiling module CFGMUX8_42
+# -- Compiling module CFGMUX8S3
+# -- Compiling module CFG_NOTINV
+# -- Compiling module clk_fb_compensate
+# -- Compiling module CVLVDS
+# -- Compiling module DIV
+# -- Compiling module DLLV1
+# -- Compiling module DSP56V1
+# -- Compiling module efuse_idx16
+# -- Compiling module EMBMUX5S4
+# -- Compiling module FG6X2
+# -- Compiling module FIFOCTRL18KV1
+# -- Compiling module hpc_d2s
+# -- Compiling module hpc_s2d
+# -- Compiling module IOC_CMOS
+# -- Compiling module IOC_LVDS
+# -- Compiling module JTAG_DBWV1
+# -- Compiling module LBUF
+# -- Compiling module LRAM64
+# -- Compiling module LRAM_CTRL
+# -- Compiling module MUX2S
+# -- Compiling module OSCV1
+# -- Compiling module PLLV1
+# -- Compiling module REG2CKSR
+# -- Compiling module SOC_SLAVE_BUS
+# -- Compiling module supply0_guts
+# -- Compiling module supply1_guts
+# -- Compiling module UPDATE
+# -- Compiling module cts_dffrs
+# -- Compiling module SDLLV1
+# -- Compiling module MDLLV1
+# -- Compiling module MDLL_TOP
+# -- Compiling module SDLL_TOP
+# -- Compiling module DNT_emb_ckmux2m8
+# -- Compiling module gclk_clk_gate
+# -- Compiling module dsp_clkgate
+# -- Compiling module dsp_compunit
+# -- Compiling module dsp_core
+# -- Compiling module dsp_input_buf
+# -- Compiling module DSPCELL_AND2
+# -- Compiling module DSPCELL_AND3
+# -- Compiling module DSPCELL_MUX2
+# -- Compiling module DSPCELL_MUX4
+# -- Compiling module DSPCELL_MUX8
+# -- Compiling module DSPCELL_SELBUF
+# -- Compiling module DSPCELL_FULLADD
+# -- Compiling module DSPCELL_ADD
+# -- Compiling module DSPCELL_BIT_ADD
+# -- Compiling module DSPCELL_MULT
+# -- Compiling module dsp_multblock
+# -- Compiling module dsp_postadder
+# -- Compiling module dsp_preadder
+# -- Compiling module dsp_ufcmux
+# -- Compiling module ECC_DECODER
+# -- Compiling module ecc_decoder_core
+# -- Compiling module error_bit_decoder
+# -- Compiling module ecc_dec_wrap
+# -- Compiling module ECC_ENCODER
+# -- Compiling module ecc_encoder_core
+# -- Compiling module ecc_enc_wrap
+# -- Compiling module emb18k_ext
+# -- Compiling module emb5k_core
+# -- Compiling module emb5k_top
+# ** Warning: D:/CreateIC/Fuxi/Software/data/lib/p1_sim.v(15933): (vlog-2182) 'mem' might be read before written in always_comb or always @* block.
+# ** Warning: D:/CreateIC/Fuxi/Software/data/lib/p1_sim.v(16011): (vlog-2182) 'mem' might be read before written in always_comb or always @* block.
+# -- Compiling module fifo_ctrl_core
+# -- Compiling module gry2bin
+# -- Compiling module prog_fe
+# -- Compiling module fifo_pkarbit
+# -- Compiling module fifo_pkslice
+# -- Compiling module glbsr
+# -- Compiling module CLK
+# -- Compiling module ILOGIC
+# -- Compiling module OLOGIC
+# -- Compiling module ioc_latn_ar
+# -- Compiling module ioc_dff_asr
+# -- Compiling module ioc_dffn_asr
+# -- Compiling module LUT5
+# -- Compiling module MUX2S_L
+# -- Compiling module OENC
+# -- Compiling module co_lock_gate
+# -- Compiling module PLL_TOP
+# -- Compiling module CSGPIO
+# -- Compiling module io_data
+# -- Compiling module IO_MUX2S1
+# -- Compiling module iob_dff
+# -- Compiling module dff_n2mx
+# -- Compiling module dff_2mx
+# -- Compiling module ahb_cfg_register
+# -- Compiling module bus_top
+# -- Compiling module CFGMUX2S1_203
+# -- Compiling module CFGMUX2S1_340
+# -- Compiling module CFGMUX8S3_600
+# -- Compiling module ctrl_wrapper
+# -- Compiling module DDR_CRG_CORE
+# -- Compiling module GX_CRG_CORE
+# -- Compiling module PCIE_V1
+# -- Compiling module phy_wrapper
+# -- Compiling module SERDES_PHY_V1
+# -- Compiling module GUC_GPIO
+# -- Compiling module mybuf
+# 
+# Top level modules:
+# 	ADD1_A
+# 	GND
+# 	IBUF
+# 	IOBUF
+# 	IOC
+# 	LUT5_2
+# 	LUT6
+# 	MUXF7
+# 	MUXF8
+# 	OBUF
+# 	OBUFT
+# 	REG
+# 	VCC
+# 	LRAM32X2SP
+# 	LRAM32X2QP
+# 	LRAM32M
+# 	LRAM64X1SP
+# 	LRAM64X1DP
+# 	LRAM64X1QP
+# 	LRAM64M
+# 	LRAM128X1SP
+# 	LRAM128X2SP
+# 	LRAM128X1DP
+# 	LRAM256X1SP
+# 	SR16X2
+# 	SR32X1
+# 	SR64X1
+# 	SR128X1
+# 	GBUF
+# 	RBUF
+# 	DBUF
+# 	GBUF_GATE
+# 	RBUF_GATE
+# 	DBUF_GATE
+# 	DELAY_BUF
+# 	MULT_18X18
+# 	UNSIGNED_18X18
+# 	MULT_35X18
+# 	MULT_35X35
+# 	MULT_69X18
+# 	MULT_69X69
+# 	EMB5K
+# 	EMB9K
+# 	EMB18K
+# 	FIFO5K
+# 	FIFO9K
+# 	FIFO18K
+# 	SIO
+# 	CS_REG_E_PRIM
+# 	CS_REG_CLK_PRIM
+# 	mx2a
+# 	CS_BUF_PRIM
+# 	CS_INV_PRIM
+# 	AND2
+# 	ADC
+# 	ADD_1BIT
+# 	AND4
+# 	CARRY_SKIP_IN
+# 	CARRY_SKIP_OUT
+# 	CFG_CLK_GATING
+# 	CFG_DYN_SWITCH_S2
+# 	CFGINV
+# 	CFGMUX10_cmos
+# 	CFGMUX10S4
+# 	CFGMUX12_43
+# 	CFGMUX16K
+# 	CFGMUX16S4
+# 	CFGMUX16
+# 	CFGMUX20I0
+# 	CFGMUX24
+# 	CFGMUX2I0
+# 	CFGMUX2
+# 	CFGMUX3I0
+# 	CFGMUX3I1
+# 	CFGMUX3
+# 	CFGMUX4_GCO
+# 	CFGMUX4S2
+# 	CFGMUX4
+# 	CFGMUX5
+# 	CFGMUX6_32
+# 	CFGMUX6
+# 	CFGMUX8_42
+# 	CFGMUX8S3
+# 	CFG_NOTINV
+# 	clk_fb_compensate
+# 	CVLVDS
+# 	DIV
+# 	DLLV1
+# 	DSP56V1
+# 	efuse_idx16
+# 	EMBMUX5S4
+# 	FG6X2
+# 	hpc_d2s
+# 	hpc_s2d
+# 	IOC_LVDS
+# 	JTAG_DBWV1
+# 	LBUF
+# 	LRAM64
+# 	LRAM_CTRL
+# 	MUX2S
+# 	OSCV1
+# 	PLLV1
+# 	REG2CKSR
+# 	SOC_SLAVE_BUS
+# 	UPDATE
+# 	ahb_cfg_register
+# 	bus_top
+# 	CFGMUX2S1_203
+# 	CFGMUX2S1_340
+# 	CFGMUX8S3_600
+# 	ctrl_wrapper
+# 	DDR_CRG_CORE
+# 	GX_CRG_CORE
+# 	PCIE_V1
+# 	phy_wrapper
+# 	SERDES_PHY_V1
+# 	GUC_GPIO
+# End time: 11:34:51 on Jun 23,2022, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 2
+# vlog -vlog01compat -work work  "D:/CreateIC/Final/Fuxi_sift_hw_sim/ip_core/ddr_v1/src/ccb_ddr_cfg_top.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/led_ctrl.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block2_27extreme.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block3x3.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block3x3_2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11_2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/DoG.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/local_desc.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/local_extreme.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/mag_calc.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/mag_dir_calc.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/main_ori.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/my_fifo2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/my_fifo256.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/shift_register_3.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/shift_register_15.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/sift_desc.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/sift_feat.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/window_rotate.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/ram_image.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/ram_dir1.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/ram_dir2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/ram_mag1.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/MAIN_ORI_RAM.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/pll_sift.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_desc.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/local_gau_rom.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/main_ori_rom_distr.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir0_1.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir0_2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir1_1.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/DESC1_RAM.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/DESC2_RAM.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/KP1_RAM.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/KP2_RAM.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir1_2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir2_1.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir2_2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir3_1.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir3_2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir4_1.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir4_2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir5_1.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir5_2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir6_1.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir6_2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir7_1.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir7_2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir8_1.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir8_2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir9_1.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir9_2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir10_1.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir10_2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir11_1.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir11_2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir12_1.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir12_2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir13_1.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir13_2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir14_1.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir14_2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir15_1.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir15_2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir16_1.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir16_2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir17_1.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir17_2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir18_1.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir18_2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir19_1.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir19_2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir20_1.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir20_2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir21_1.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir21_2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir22_1.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir22_2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir23_1.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir23_2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir24_1.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/sift_top.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir24_2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir25_1.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir25_2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir26_1.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir26_2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir27_1.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir27_2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir28_1.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir28_2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir29_1.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir29_2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir30_1.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir30_2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir31_1.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir31_2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir32_1.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir32_2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir33_1.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir33_2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir34_1.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir34_2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir35_1.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir35_2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/ram_mag2.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/dir36to8.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/CANNY_EDGE.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/canny.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/EPP.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/NMS.v" "D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift_tb/tf_sift_feat.v" +initreg+0
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 11:34:51 on Jun 23,2022
+# vlog -reportprogress 300 -vlog01compat -work work D:/CreateIC/Final/Fuxi_sift_hw_sim/ip_core/ddr_v1/src/ccb_ddr_cfg_top.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/led_ctrl.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block2_27extreme.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block3x3.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block3x3_2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11_2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/DoG.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/local_desc.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/local_extreme.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/mag_calc.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/mag_dir_calc.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/main_ori.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/my_fifo2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/my_fifo256.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/shift_register_3.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/shift_register_15.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/sift_desc.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/sift_feat.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/window_rotate.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/ram_image.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/ram_dir1.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/ram_dir2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/ram_mag1.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/MAIN_ORI_RAM.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/pll_sift.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_desc.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/local_gau_rom.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/main_ori_rom_distr.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir0_1.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir0_2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir1_1.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/DESC1_RAM.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/DESC2_RAM.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/KP1_RAM.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/KP2_RAM.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir1_2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir2_1.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir2_2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir3_1.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir3_2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir4_1.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir4_2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir5_1.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir5_2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir6_1.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir6_2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir7_1.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir7_2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir8_1.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir8_2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir9_1.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir9_2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir10_1.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir10_2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir11_1.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir11_2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir12_1.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir12_2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir13_1.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir13_2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir14_1.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir14_2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir15_1.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir15_2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir16_1.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir16_2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir17_1.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir17_2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir18_1.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir18_2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir19_1.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir19_2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir20_1.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir20_2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir21_1.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir21_2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir22_1.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir22_2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir23_1.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir23_2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir24_1.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/sift_top.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir24_2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir25_1.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir25_2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir26_1.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir26_2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir27_1.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir27_2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir28_1.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir28_2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir29_1.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir29_2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir30_1.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir30_2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir31_1.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir31_2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir32_1.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir32_2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir33_1.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir33_2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir34_1.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir34_2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir35_1.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/distributed_rom/dir35_2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/ram_mag2.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/dir36to8.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/CANNY_EDGE.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/canny.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/EPP.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/NMS.v D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift_tb/tf_sift_feat.v "+initreg+0" 
+# -- Compiling module cme_ddr_core_top_v1
+# -- Compiling module led_ctrl
+# -- Compiling module block2_27extreme
+# -- Compiling module block3x3
+# -- Compiling module block3x3_2
+# -- Compiling module block11x11
+# -- Compiling module block11x11_2
+# -- Compiling module CONV
+# -- Compiling module cov
+# -- Compiling module DoG
+# -- Compiling module local_desc
+# -- Compiling module local_extreme
+# -- Compiling module mag_calc
+# -- Compiling module mag_dir_calc
+# -- Compiling module main_ori
+# -- Compiling module my_fifo2
+# -- Compiling module my_fifo256
+# -- Compiling module shift_register_3
+# -- Compiling module shift_register_15
+# -- Compiling module sift_desc
+# -- Compiling module sift_feat
+# -- Compiling module window_rotate
+# -- Compiling module mul_new2
+# -- Compiling module ram_image
+# -- Compiling module ram_image_ADDR_PIPE_A
+# -- Compiling module ram_image_NOT
+# -- Compiling module ram_image_MUX
+# -- Compiling module ram_image_AND
+# -- Compiling module ram_dir1
+# -- Compiling module ram_dir1_MUX
+# -- Compiling module ram_dir1_AND
+# -- Compiling module ram_dir1_ADDR_PIPE_A
+# -- Compiling module ram_dir1_NOT
+# -- Compiling module ram_dir2
+# -- Compiling module ram_dir2_AND
+# -- Compiling module ram_dir2_NOT
+# -- Compiling module ram_dir2_MUX
+# -- Compiling module ram_dir2_ADDR_PIPE_A
+# -- Compiling module ram_mag1
+# -- Compiling module ram_mag1_ADDR_PIPE_A
+# -- Compiling module ram_mag1_AND
+# -- Compiling module ram_mag1_NOT
+# -- Compiling module ram_mag1_MUX
+# -- Compiling module MAIN_ORI_RAM
+# -- Compiling module pll_sift
+# -- Compiling module mul_desc
+# -- Compiling module local_gau_rom
+# -- Compiling module main_ori_rom_distr
+# -- Compiling module dir0_1
+# -- Compiling module dir0_2
+# -- Compiling module dir1_1
+# -- Compiling module DESC1_RAM
+# -- Compiling module DESC2_RAM
+# -- Compiling module KP1_RAM
+# -- Compiling module KP2_RAM
+# -- Compiling module dir1_2
+# -- Compiling module dir2_1
+# -- Compiling module dir2_2
+# -- Compiling module dir3_1
+# -- Compiling module dir3_2
+# -- Compiling module dir4_1
+# -- Compiling module dir4_2
+# -- Compiling module dir5_1
+# -- Compiling module dir5_2
+# -- Compiling module dir6_1
+# -- Compiling module dir6_2
+# -- Compiling module dir7_1
+# -- Compiling module dir7_2
+# -- Compiling module dir8_1
+# -- Compiling module dir8_2
+# -- Compiling module dir9_1
+# -- Compiling module dir9_2
+# -- Compiling module dir10_1
+# -- Compiling module dir10_2
+# -- Compiling module dir11_1
+# -- Compiling module dir11_2
+# -- Compiling module dir12_1
+# -- Compiling module dir12_2
+# -- Compiling module dir13_1
+# -- Compiling module dir13_2
+# -- Compiling module dir14_1
+# -- Compiling module dir14_2
+# -- Compiling module dir15_1
+# -- Compiling module dir15_2
+# -- Compiling module dir16_1
+# -- Compiling module dir16_2
+# -- Compiling module dir17_1
+# -- Compiling module dir17_2
+# -- Compiling module dir18_1
+# -- Compiling module dir18_2
+# -- Compiling module dir19_1
+# -- Compiling module dir19_2
+# -- Compiling module dir20_1
+# -- Compiling module dir20_2
+# -- Compiling module dir21_1
+# -- Compiling module dir21_2
+# -- Compiling module dir22_1
+# -- Compiling module dir22_2
+# -- Compiling module dir23_1
+# -- Compiling module dir23_2
+# -- Compiling module dir24_1
+# -- Compiling module sift_top
+# -- Compiling module dir24_2
+# -- Compiling module dir25_1
+# -- Compiling module dir25_2
+# -- Compiling module dir26_1
+# -- Compiling module dir26_2
+# -- Compiling module dir27_1
+# -- Compiling module dir27_2
+# -- Compiling module dir28_1
+# -- Compiling module dir28_2
+# -- Compiling module dir29_1
+# -- Compiling module dir29_2
+# -- Compiling module dir30_1
+# -- Compiling module dir30_2
+# -- Compiling module dir31_1
+# -- Compiling module dir31_2
+# -- Compiling module dir32_1
+# -- Compiling module dir32_2
+# -- Compiling module dir33_1
+# -- Compiling module dir33_2
+# -- Compiling module dir34_1
+# -- Compiling module dir34_2
+# -- Compiling module dir35_1
+# -- Compiling module dir35_2
+# -- Compiling module ram_mag2
+# -- Compiling module ram_mag2_NOT
+# -- Compiling module ram_mag2_MUX
+# -- Compiling module ram_mag2_AND
+# -- Compiling module ram_mag2_ADDR_PIPE_A
+# -- Compiling module dir36to8
+# -- Compiling module CANNY_EDGE
+# -- Compiling module CANNY_EDGE_MUX
+# -- Compiling module CANNY_EDGE_AND
+# -- Compiling module CANNY_EDGE_ADDR_PIPE_A
+# -- Compiling module CANNY_EDGE_NOT
+# -- Compiling module canny
+# -- Compiling module EPP
+# -- Compiling module NMS
+# -- Compiling module NMS_MUX
+# -- Compiling module NMS_NOT
+# -- Compiling module NMS_AND
+# -- Compiling module NMS_ADDR_PIPE_A
+# -- Compiling module tf_sift_feat
+# 
+# Top level modules:
+# 	cme_ddr_core_top_v1
+# 	led_ctrl
+# 	sift_top
+# 	EPP
+# 	tf_sift_feat
+# End time: 11:34:54 on Jun 23,2022, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0
+# vsim -voptargs=+acc work.tf_sift_feat 
+# vsim -voptargs="+acc" work.tf_sift_feat 
+# Start time: 11:34:57 on Jun 23,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(214): (vopt-2685) [TFMPC] - Too few port connections for 'cov1_1'.  Expected 21, found 20.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(214): (vopt-2718) [TFMPC] - Missing connection for port 'dout_en'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(227): (vopt-2685) [TFMPC] - Too few port connections for 'cov1_2'.  Expected 21, found 20.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(227): (vopt-2718) [TFMPC] - Missing connection for port 'dout_en'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(239): (vopt-2685) [TFMPC] - Too few port connections for 'cov1_3'.  Expected 21, found 20.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(239): (vopt-2718) [TFMPC] - Missing connection for port 'dout_en'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(253): (vopt-2685) [TFMPC] - Too few port connections for 'cov1_4'.  Expected 21, found 20.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(253): (vopt-2718) [TFMPC] - Missing connection for port 'dout_en'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(266): (vopt-2685) [TFMPC] - Too few port connections for 'cov1_5'.  Expected 21, found 20.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(266): (vopt-2718) [TFMPC] - Missing connection for port 'dout_en'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/DoG.v(117): (vopt-2685) [TFMPC] - Too few port connections for 'gf0'.  Expected 27, found 26.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/DoG.v(117): (vopt-2718) [TFMPC] - Missing connection for port 'out_en'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/DoG.v(135): (vopt-2685) [TFMPC] - Too few port connections for 'gf2'.  Expected 27, found 26.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/DoG.v(135): (vopt-2718) [TFMPC] - Missing connection for port 'out_en'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/DoG.v(144): (vopt-2685) [TFMPC] - Too few port connections for 'gf3'.  Expected 27, found 26.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/DoG.v(144): (vopt-2718) [TFMPC] - Missing connection for port 'out_en'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11_2.v(233): (vopt-2685) [TFMPC] - Too few port connections for 'fifo1_2'.  Expected 9, found 8.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11_2.v(233): (vopt-2718) [TFMPC] - Missing connection for port 'cnt'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11_2.v(235): (vopt-2685) [TFMPC] - Too few port connections for 'fifo2_2'.  Expected 9, found 8.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11_2.v(235): (vopt-2718) [TFMPC] - Missing connection for port 'cnt'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11_2.v(237): (vopt-2685) [TFMPC] - Too few port connections for 'fifo3_2'.  Expected 9, found 8.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11_2.v(237): (vopt-2718) [TFMPC] - Missing connection for port 'cnt'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11_2.v(239): (vopt-2685) [TFMPC] - Too few port connections for 'fifo4_2'.  Expected 9, found 8.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11_2.v(239): (vopt-2718) [TFMPC] - Missing connection for port 'cnt'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11_2.v(241): (vopt-2685) [TFMPC] - Too few port connections for 'fifo5_2'.  Expected 9, found 8.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11_2.v(241): (vopt-2718) [TFMPC] - Missing connection for port 'cnt'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11_2.v(243): (vopt-2685) [TFMPC] - Too few port connections for 'fifo6_2'.  Expected 9, found 8.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11_2.v(243): (vopt-2718) [TFMPC] - Missing connection for port 'cnt'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11_2.v(245): (vopt-2685) [TFMPC] - Too few port connections for 'fifo7_2'.  Expected 9, found 8.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11_2.v(245): (vopt-2718) [TFMPC] - Missing connection for port 'cnt'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11_2.v(247): (vopt-2685) [TFMPC] - Too few port connections for 'fifo8_2'.  Expected 9, found 8.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11_2.v(247): (vopt-2718) [TFMPC] - Missing connection for port 'cnt'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11_2.v(249): (vopt-2685) [TFMPC] - Too few port connections for 'fifo9_2'.  Expected 9, found 8.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11_2.v(249): (vopt-2718) [TFMPC] - Missing connection for port 'cnt'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11_2.v(251): (vopt-2685) [TFMPC] - Too few port connections for 'fifo10_2'.  Expected 9, found 8.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11_2.v(251): (vopt-2718) [TFMPC] - Missing connection for port 'cnt'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11.v(241): (vopt-2685) [TFMPC] - Too few port connections for 'fifo1'.  Expected 9, found 8.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11.v(241): (vopt-2718) [TFMPC] - Missing connection for port 'cnt'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11.v(243): (vopt-2685) [TFMPC] - Too few port connections for 'fifo2'.  Expected 9, found 8.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11.v(243): (vopt-2718) [TFMPC] - Missing connection for port 'cnt'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11.v(245): (vopt-2685) [TFMPC] - Too few port connections for 'fifo3'.  Expected 9, found 8.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11.v(245): (vopt-2718) [TFMPC] - Missing connection for port 'cnt'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11.v(247): (vopt-2685) [TFMPC] - Too few port connections for 'fifo4'.  Expected 9, found 8.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11.v(247): (vopt-2718) [TFMPC] - Missing connection for port 'cnt'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11.v(249): (vopt-2685) [TFMPC] - Too few port connections for 'fifo5'.  Expected 9, found 8.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11.v(249): (vopt-2718) [TFMPC] - Missing connection for port 'cnt'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11.v(251): (vopt-2685) [TFMPC] - Too few port connections for 'fifo6'.  Expected 9, found 8.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11.v(251): (vopt-2718) [TFMPC] - Missing connection for port 'cnt'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11.v(253): (vopt-2685) [TFMPC] - Too few port connections for 'fifo7'.  Expected 9, found 8.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11.v(253): (vopt-2718) [TFMPC] - Missing connection for port 'cnt'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11.v(255): (vopt-2685) [TFMPC] - Too few port connections for 'fifo8'.  Expected 9, found 8.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11.v(255): (vopt-2718) [TFMPC] - Missing connection for port 'cnt'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11.v(257): (vopt-2685) [TFMPC] - Too few port connections for 'fifo9'.  Expected 9, found 8.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11.v(257): (vopt-2718) [TFMPC] - Missing connection for port 'cnt'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11.v(259): (vopt-2685) [TFMPC] - Too few port connections for 'fifo10'.  Expected 9, found 8.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block11x11.v(259): (vopt-2718) [TFMPC] - Missing connection for port 'cnt'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block2_27extreme.v(71): (vopt-2685) [TFMPC] - Too few port connections for 'blk2_2'.  Expected 13, found 12.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block2_27extreme.v(71): (vopt-2718) [TFMPC] - Missing connection for port 'start_flag'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block2_27extreme.v(75): (vopt-2685) [TFMPC] - Too few port connections for 'blk2_3'.  Expected 13, found 12.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block2_27extreme.v(75): (vopt-2718) [TFMPC] - Missing connection for port 'start_flag'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block2_27extreme.v(86): (vopt-2685) [TFMPC] - Too few port connections for 'blk2_5'.  Expected 13, found 12.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block2_27extreme.v(86): (vopt-2718) [TFMPC] - Missing connection for port 'start_flag'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block2_27extreme.v(90): (vopt-2685) [TFMPC] - Too few port connections for 'blk2_6'.  Expected 13, found 12.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block2_27extreme.v(90): (vopt-2718) [TFMPC] - Missing connection for port 'start_flag'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block3x3.v(100): (vopt-2685) [TFMPC] - Too few port connections for 'fifo2'.  Expected 9, found 8.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block3x3.v(100): (vopt-2718) [TFMPC] - Missing connection for port 'cnt'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block3x3.v(103): (vopt-2685) [TFMPC] - Too few port connections for 'fifo1'.  Expected 9, found 8.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block3x3.v(103): (vopt-2718) [TFMPC] - Missing connection for port 'cnt'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block3x3_2.v(100): (vopt-2685) [TFMPC] - Too few port connections for 'fifo2'.  Expected 9, found 8.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block3x3_2.v(100): (vopt-2718) [TFMPC] - Missing connection for port 'cnt'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block3x3_2.v(104): (vopt-2685) [TFMPC] - Too few port connections for 'fifo1'.  Expected 9, found 8.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/block3x3_2.v(104): (vopt-2718) [TFMPC] - Missing connection for port 'cnt'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/sift_feat.v(79): (vopt-2685) [TFMPC] - Too few port connections for 'U_DoG'.  Expected 15, found 12.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/sift_feat.v(79): (vopt-2718) [TFMPC] - Missing connection for port 'dout4'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/sift_feat.v(79): (vopt-2718) [TFMPC] - Missing connection for port 'dout3'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/sift_feat.v(79): (vopt-2718) [TFMPC] - Missing connection for port 'dout1'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(67): (vopt-2685) [TFMPC] - Too few port connections for 'u_inst1'.  Expected 49, found 21.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(67): (vopt-2718) [TFMPC] - Missing connection for port 'u'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(67): (vopt-2718) [TFMPC] - Missing connection for port 'recarrycasin'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(67): (vopt-2718) [TFMPC] - Missing connection for port 'rcasin'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(67): (vopt-2718) [TFMPC] - Missing connection for port 'rcarrycasin'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(67): (vopt-2718) [TFMPC] - Missing connection for port 'du'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(67): (vopt-2718) [TFMPC] - Missing connection for port 'dl'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(67): (vopt-2718) [TFMPC] - Missing connection for port 'cucasin'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(67): (vopt-2718) [TFMPC] - Missing connection for port 'clcasin'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(67): (vopt-2718) [TFMPC] - Missing connection for port 'ceufc'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(67): (vopt-2718) [TFMPC] - Missing connection for port 'cepra'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(67): (vopt-2718) [TFMPC] - Missing connection for port 'cepoa'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(67): (vopt-2718) [TFMPC] - Missing connection for port 'cemultu'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(67): (vopt-2718) [TFMPC] - Missing connection for port 'cemultl'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(67): (vopt-2718) [TFMPC] - Missing connection for port 'ceibuf'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(67): (vopt-2718) [TFMPC] - Missing connection for port 'cecomp'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(67): (vopt-2718) [TFMPC] - Missing connection for port 'aucasin'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(67): (vopt-2718) [TFMPC] - Missing connection for port 'alcasin'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(67): (vopt-2718) [TFMPC] - Missing connection for port 'underflow'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(67): (vopt-2718) [TFMPC] - Missing connection for port 'recarrycasout'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(67): (vopt-2718) [TFMPC] - Missing connection for port 'rcasout'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(67): (vopt-2718) [TFMPC] - Missing connection for port 'rcarrycasout'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(67): (vopt-2718) [TFMPC] - Missing connection for port 'overflow'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(67): (vopt-2718) [TFMPC] - Missing connection for port 'match'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(67): (vopt-2718) [TFMPC] - Missing connection for port 'imatch'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(67): (vopt-2718) [TFMPC] - Missing connection for port 'cucasout'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(67): (vopt-2718) [TFMPC] - Missing connection for port 'clcasout'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(67): (vopt-2718) [TFMPC] - Missing connection for port 'aucasout'.
+# ** Warning: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(67): (vopt-2718) [TFMPC] - Missing connection for port 'alcasout'.
+# Loading work.tf_sift_feat(fast)
+# Loading work.sift_feat(fast)
+# Loading work.DoG(fast)
+# Loading work.block11x11(fast)
+# Loading work.my_fifo256(fast)
+# Loading work.shift_register_15(fast)
+# Loading work.block11x11_2(fast)
+# Loading work.my_fifo2(fast)
+# Loading work.CONV(fast)
+# Loading work.cov(fast)
+# Loading work.mul_new2(fast)
+# Loading work.DSP56V1(fast)
+# Loading work.dsp_core(fast)
+# Loading work.dsp_clkgate(fast)
+# Loading work.gclk_clk_gate(fast)
+# Loading work.dsp_compunit(fast)
+# Loading work.DSPCELL_AND2(fast)
+# Loading work.DSPCELL_MUX2(fast)
+# Loading work.DSPCELL_AND3(fast)
+# Loading work.dsp_input_buf(fast)
+# Loading work.DSPCELL_SELBUF(fast)
+# Loading work.DSPCELL_SELBUF(fast__1)
+# Loading work.DSPCELL_SELBUF(fast__2)
+# Loading work.DSPCELL_SELBUF(fast__3)
+# Loading work.DSPCELL_SELBUF(fast__4)
+# Loading work.dsp_multblock(fast)
+# Loading work.DSPCELL_MULT(fast)
+# Loading work.DSPCELL_SELBUF(fast__5)
+# Loading work.DSPCELL_MUX2(fast__1)
+# Loading work.DSPCELL_MUX4(fast)
+# Loading work.DSPCELL_MUX2(fast__2)
+# Loading work.dsp_postadder(fast)
+# Loading work.DSPCELL_MUX4(fast__1)
+# Loading work.DSPCELL_ADD(fast)
+# Loading work.DSPCELL_BIT_ADD(fast)
+# Loading work.DSPCELL_MUX2(fast__3)
+# Loading work.dsp_preadder(fast)
+# Loading work.DSPCELL_MUX2(fast__4)
+# Loading work.DSPCELL_SELBUF(fast__6)
+# Loading work.DSPCELL_FULLADD(fast)
+# Loading work.DSPCELL_MUX4(fast__2)
+# Loading work.dsp_ufcmux(fast)
+# Loading work.DSPCELL_MUX8(fast)
+# Loading work.DSPCELL_SELBUF(fast__7)
+# Loading work.supply0_guts(fast)
+# Loading work.local_extreme(fast)
+# Loading work.block2_27extreme(fast)
+# Loading work.block3x3(fast)
+# Loading work.shift_register_3(fast)
+# Loading work.block3x3_2(fast)
+# Loading work.mag_calc(fast)
+# Loading work.mag_dir_calc(fast)
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/sift_feat.v(79): [PCDPC] - Port size (21) does not match connection size (18) for port 'addr'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/DoG.v(37).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/DoG.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/DoG.v(117): [PCDPC] - Port size (48) does not match connection size (88) for port 'df1_1'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf0 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/DoG.v(117): [PCDPC] - Port size (48) does not match connection size (88) for port 'df1_2'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf0 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/DoG.v(117): [PCDPC] - Port size (48) does not match connection size (88) for port 'df1_10'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf0 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/DoG.v(117): [PCDPC] - Port size (48) does not match connection size (88) for port 'df1_11'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf0 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(99): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf0/cov1_1/U11_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(112): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf0/cov1_1/U12_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(125): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf0/cov1_1/U13_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(137): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf0/cov1_1/U14_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(99): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf0/cov1_2/U11_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(112): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf0/cov1_2/U12_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(125): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf0/cov1_2/U13_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(137): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf0/cov1_2/U14_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(99): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf0/cov1_3/U11_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(112): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf0/cov1_3/U12_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(125): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf0/cov1_3/U13_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(137): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf0/cov1_3/U14_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(99): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf0/cov1_4/U11_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(112): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf0/cov1_4/U12_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(125): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf0/cov1_4/U13_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(137): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf0/cov1_4/U14_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(266): [PCDPC] - Port size (10) does not match connection size (32) for port 'din5'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf0/cov1_5 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(266): [PCDPC] - Port size (10) does not match connection size (32) for port 'din6'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf0/cov1_5 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(266): [PCDPC] - Port size (10) does not match connection size (32) for port 'din7'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf0/cov1_5 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(266): [PCDPC] - Port size (10) does not match connection size (32) for port 'din8'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf0/cov1_5 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(266): [PCDPC] - Port size (8) does not match connection size (32) for port 'k5'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf0/cov1_5 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(266): [PCDPC] - Port size (8) does not match connection size (32) for port 'k6'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf0/cov1_5 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(266): [PCDPC] - Port size (8) does not match connection size (32) for port 'k7'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf0/cov1_5 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(266): [PCDPC] - Port size (8) does not match connection size (32) for port 'k8'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf0/cov1_5 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(99): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf0/cov1_5/U11_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(112): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf0/cov1_5/U12_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(125): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf0/cov1_5/U13_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(137): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf0/cov1_5/U14_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/DoG.v(126): [PCDPC] - Port size (48) does not match connection size (88) for port 'df1_1'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf1 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/DoG.v(126): [PCDPC] - Port size (48) does not match connection size (88) for port 'df1_11'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf1 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(99): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf1/cov1_1/U11_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(112): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf1/cov1_1/U12_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(125): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf1/cov1_1/U13_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(137): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf1/cov1_1/U14_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(99): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf1/cov1_2/U11_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(112): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf1/cov1_2/U12_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(125): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf1/cov1_2/U13_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(137): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf1/cov1_2/U14_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(99): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf1/cov1_3/U11_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(112): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf1/cov1_3/U12_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(125): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf1/cov1_3/U13_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(137): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf1/cov1_3/U14_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(99): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf1/cov1_4/U11_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(112): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf1/cov1_4/U12_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(125): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf1/cov1_4/U13_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(137): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf1/cov1_4/U14_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(266): [PCDPC] - Port size (10) does not match connection size (32) for port 'din5'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf1/cov1_5 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(266): [PCDPC] - Port size (10) does not match connection size (32) for port 'din6'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf1/cov1_5 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(266): [PCDPC] - Port size (10) does not match connection size (32) for port 'din7'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf1/cov1_5 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(266): [PCDPC] - Port size (10) does not match connection size (32) for port 'din8'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf1/cov1_5 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(266): [PCDPC] - Port size (8) does not match connection size (32) for port 'k5'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf1/cov1_5 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(266): [PCDPC] - Port size (8) does not match connection size (32) for port 'k6'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf1/cov1_5 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(266): [PCDPC] - Port size (8) does not match connection size (32) for port 'k7'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf1/cov1_5 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(266): [PCDPC] - Port size (8) does not match connection size (32) for port 'k8'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf1/cov1_5 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(99): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf1/cov1_5/U11_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(112): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf1/cov1_5/U12_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(125): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf1/cov1_5/U13_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(137): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf1/cov1_5/U14_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/DoG.v(135): [PCDPC] - Port size (48) does not match connection size (88) for port 'df1_1'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf2 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/DoG.v(135): [PCDPC] - Port size (48) does not match connection size (88) for port 'df1_11'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf2 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(99): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf2/cov1_1/U11_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(112): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf2/cov1_1/U12_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(125): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf2/cov1_1/U13_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(137): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf2/cov1_1/U14_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(99): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf2/cov1_2/U11_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(112): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf2/cov1_2/U12_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(125): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf2/cov1_2/U13_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(137): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf2/cov1_2/U14_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(99): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf2/cov1_3/U11_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(112): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf2/cov1_3/U12_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(125): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf2/cov1_3/U13_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(137): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf2/cov1_3/U14_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(99): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf2/cov1_4/U11_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(112): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf2/cov1_4/U12_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(125): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf2/cov1_4/U13_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(137): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf2/cov1_4/U14_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(266): [PCDPC] - Port size (10) does not match connection size (32) for port 'din5'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf2/cov1_5 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(266): [PCDPC] - Port size (10) does not match connection size (32) for port 'din6'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf2/cov1_5 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(266): [PCDPC] - Port size (10) does not match connection size (32) for port 'din7'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf2/cov1_5 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(266): [PCDPC] - Port size (10) does not match connection size (32) for port 'din8'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf2/cov1_5 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(266): [PCDPC] - Port size (8) does not match connection size (32) for port 'k5'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf2/cov1_5 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(266): [PCDPC] - Port size (8) does not match connection size (32) for port 'k6'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf2/cov1_5 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(266): [PCDPC] - Port size (8) does not match connection size (32) for port 'k7'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf2/cov1_5 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(266): [PCDPC] - Port size (8) does not match connection size (32) for port 'k8'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf2/cov1_5 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(99): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf2/cov1_5/U11_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(112): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf2/cov1_5/U12_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(125): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf2/cov1_5/U13_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(137): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf2/cov1_5/U14_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(99): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf3/cov1_1/U11_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(112): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf3/cov1_1/U12_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(125): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf3/cov1_1/U13_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(137): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf3/cov1_1/U14_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(99): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf3/cov1_2/U11_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(112): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf3/cov1_2/U12_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(125): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf3/cov1_2/U13_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(137): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf3/cov1_2/U14_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(99): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf3/cov1_3/U11_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(112): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf3/cov1_3/U12_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(125): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf3/cov1_3/U13_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(137): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf3/cov1_3/U14_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(99): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf3/cov1_4/U11_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(112): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf3/cov1_4/U12_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(125): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf3/cov1_4/U13_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(137): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf3/cov1_4/U14_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(266): [PCDPC] - Port size (10) does not match connection size (32) for port 'din5'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf3/cov1_5 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(266): [PCDPC] - Port size (10) does not match connection size (32) for port 'din6'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf3/cov1_5 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(266): [PCDPC] - Port size (10) does not match connection size (32) for port 'din7'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf3/cov1_5 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(266): [PCDPC] - Port size (10) does not match connection size (32) for port 'din8'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf3/cov1_5 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(266): [PCDPC] - Port size (8) does not match connection size (32) for port 'k5'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf3/cov1_5 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(266): [PCDPC] - Port size (8) does not match connection size (32) for port 'k6'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf3/cov1_5 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(266): [PCDPC] - Port size (8) does not match connection size (32) for port 'k7'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf3/cov1_5 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/CONV.v(266): [PCDPC] - Port size (8) does not match connection size (32) for port 'k8'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf3/cov1_5 File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(99): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf3/cov1_5/U11_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(112): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf3/cov1_5/U12_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(125): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf3/cov1_5/U13_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# ** Warning: (vsim-3015) D:/CreateIC/Final/Fuxi_sift_hw_sim/src/sift/cov.v(137): [PCDPC] - Port size (72) does not match connection size (19) for port 'r'. The port definition is at: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tf_sift_feat/uut/U_DoG/gf3/cov1_5/U14_mul File: D:/CreateIC/Final/Fuxi_sift_hw_sim/src/mul_new2.v
+# Trace back: Error QStructure::sort: invalid command name ""
+#   <6:proc:11: ::QStructure::sort .main_pane.structure 0 ascending
+#   <5:eval:1: ::QStructure::structsort .main_pane.structure 0 ascending
+#   <4:eval:1: ::namespace inscope ::QStructure {structsort .main_pane.structure} 0 ascending
+#   >3:proc:26: ::.main_pane.structure.interior.cs.body.struct sort 0 ascending
+#   >2:proc:10: ::.main_pane.structure.interior.cs.body.struct _initializeSortColumn
+#   <1:eval:1: ::namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}
+# add wave -hex *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: WangTao  Hostname: KICKASSWT  ProcessID: 7420
+#           Attempting to use alternate WLF file "./wlftr584kd".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftr584kd
+add wave -position end  sim:/tf_sift_feat/uut/U_DoG/addr
+add wave -position end  sim:/tf_sift_feat/uut/U_DoG/complete1
+add wave -position end  sim:/tf_sift_feat/uut/U_DoG/complete2
+add wave -position end  sim:/tf_sift_feat/uut/U_DoG/diff2
+add wave -position end  sim:/tf_sift_feat/uut/U_DoG/diff1
+add wave -position end  sim:/tf_sift_feat/uut/U_DoG/diff0
+add wave -position end  sim:/tf_sift_feat/uut/U_DoG/dout4
+add wave -position end  sim:/tf_sift_feat/uut/U_DoG/dout3
+add wave -position end  sim:/tf_sift_feat/uut/U_DoG/dout2
+add wave -position end  sim:/tf_sift_feat/uut/U_DoG/dout1
+add wave -position end  sim:/tf_sift_feat/uut/U_DoG/out_en
+run 5ms
+run 2ms
+# End time: 12:02:03 on Jun 23,2022, Elapsed time: 0:27:06
+# Errors: 14, Warnings: 228

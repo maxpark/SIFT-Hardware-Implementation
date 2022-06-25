@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ixplorer version="1.0" project_name="RISCV_P1_TOP" report_name="outputs/RISCV_P1_TOP.irpt">
+	<clock name="core_clk" enabled="1" taget_fmax="100" scan_min="100" scan_max="100"/>
+	<clock name="sys_clk" enabled="0" taget_fmax="100" scan_min="0" scan_max="0"/>
+	<clock name="memory_clk" enabled="1" taget_fmax="100" scan_min="100" scan_max="160"/>
+	<clock name="jtag_tck" enabled="0" taget_fmax="50" scan_min="50" scan_max="100"/>
+	<clock name="clk_ddr" enabled="0" taget_fmax="200" scan_min="0" scan_max="0"/>
+	<clock name="clk_ddr_cfg" enabled="0" taget_fmax="25" scan_min="0" scan_max="0"/>
+	<loop use_loop="1" max_loop="10"/>
+	<time use_time="0" end_time="0"/>
+	<flow_error skip_error="1"/>
+	<flow_config save_files="1"/>
+</ixplorer>
+

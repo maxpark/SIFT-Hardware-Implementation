@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<report title="Hercules Micro Design Report" version="1.0">
+<section title="Placement Report">
+   <subject title="Status Summary">
+       <table>
+           <tr>
+               <td>Running status</td>
+               <td>Successful</td>
+           </tr>
+           <tr>
+               <td>Time stamp</td>
+               <td>Tue Jun 14 22:43:52 2022</td>
+           </tr>
+           <tr>
+               <td>Fuxi version</td>
+               <td>fx2020a win64</td>
+           </tr>
+           <tr>
+               <td>Device name</td>
+               <td>P1P060N0V324C7</td>
+           </tr>
+           <tr>
+               <td>Top module name</td>
+               <td>RISCV_P1_TOP</td>
+           </tr>
+           <tr>
+               <td>Input design file</td>
+               <td> netlist/chip_syn.amv</td>
+           </tr>
+           <tr>
+               <td>Input aoc constraint file</td>
+               <td>RISCV_P1_TOP.aoc</td>
+           </tr>
+           <tr>
+               <td>Output design file</td>
+               <td>outputs/RISCV_P1_TOP.apv</td>
+           </tr>
+           <tr>
+               <td>Output annotation file</td>
+               <td>outputs/RISCV_P1_TOP.apx</td>
+           </tr>
+       </table>
+   </subject>
+   <subject title="Resource Usage Summary">
+       <table>
+           <tr>
+               <th>Resource</th>
+               <th>Usage</th>
+           </tr>
+           <tr>
+               <td>Total logic elements</td>
+               <td>659/36864( 1.79% )</td>
+           </tr>
+           <tr>
+               <td>-- combinational with no register</td>
+               <td>736</td>
+           </tr>
+           <tr>
+               <td>-- register only</td>
+               <td>173</td>
+           </tr>
+           <tr>
+               <td>-- combinational with a register</td>
+               <td>291</td>
+           </tr>
+           <tr>
+               <td>Total LUTs(partially or completely used)</td>
+               <td>659/36864( 1.79% )</td>
+           </tr>
+           <tr>
+               <td>Total ADD1s(partially or completely used)</td>
+               <td>181/36864( 0.49% )</td>
+           </tr>
+           <tr>
+               <td>Total registers</td>
+               <td>777/74334( 1.05%)</td>
+           </tr>
+           <tr>
+               <td>-- dedicated logic registers</td>
+               <td>777/73728( 1.05%)</td>
+           </tr>
+           <tr>
+               <td>I/O pins</td>
+               <td>19/202( 9.41%)</td>
+           </tr>
+           <tr>
+               <td>-- clock pins</td>
+               <td>1/16( 6.25%)</td>
+           </tr>
+           <tr>
+               <td>Total PLBs(partially or completely used)</td>
+               <td>182/4608( 3.95% )</td>
+           </tr>
+           <tr>
+               <td>Maximum fan-out node</td>
+               <td>ii06406</td>
+           </tr>
+           <tr>
+               <td>Maximum fan-out</td>
+               <td>82</td>
+           </tr>
+           <tr>
+               <td>Highest non-global fan-out signal</td>
+               <td>clk_rst_manage_ins_pll_main_pll_u0</td>
+           </tr>
+           <tr>
+               <td>Highest non-global fan-out</td>
+               <td>492</td>
+           </tr>
+           <tr>
+               <td>Total fan-out</td>
+               <td>10071</td>
+           </tr>
+           <tr>
+               <td>Average fan-out</td>
+               <td>6.14</td>
+           </tr>
+           <tr>
+               <td>Total DSP blocks</td>
+               <td>0/144(0.00%)</td>
+           </tr>
+           <tr>
+               <td>Total embedded memory blocks</td>
+               <td>12/576(2.08%)</td>
+           </tr>
+       </table>
+   </subject>
+   <subject title="I/O Bank Usage Summary">
+       <table>
+           <tr>
+               <th>I/O Bank</th>
+               <th>Usage</th>
+           </tr>
+           <tr>
+               <td>1</td>
+               <td>19/202(9.41%)</td>
+           </tr>
+       </table>
+   </subject>
+   <subject title="QoR Summary">
+       <table>
+           <tr>
+               <th>Item</th>
+               <th>Value</th>
+           </tr>
+           <tr>
+               <td>Global placer net length</td>
+               <td>0.00</td>
+           </tr>
+           <tr>
+               <td>Detail placer net length</td>
+               <td>1.40</td>
+           </tr>
+       </table>
+   </subject>
+</section>
+</report>

@@ -1,0 +1,12 @@
+//############################Flow Log Begin############################
+======== RTL simulation started at 鍛ㄤ笁 6鏈22 11:01:40 2022 ========
+Emb data split: started at: 2022-06-22 11:01:40 
+Emb data split: finished at: 2022-06-22 11:01:45 
+command: D:\software_kits\modelsim_10.6d\win64/modelsim.exe "-do" "sift_top_rtl_sim.do"
+======== RTL simulation was successed. 0 warning(s), 0 error(s) ========
+//############################Flow Log Begin############################
+======== RTL simulation started at 周四 6月 23 11:34:12 2022 ========
+Emb data split: started at: 2022-06-23 11:34:12 
+Emb data split: finished at: 2022-06-23 11:34:17 
+command: D:\software_kits\modelsim_10.6d\win64/modelsim.exe "-do" "sift_top_rtl_sim.do"
+======== RTL simulation was successed. 0 warning(s), 0 error(s) ========

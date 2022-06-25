@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<annotation version="1.0">
+
+  <critical_path>
+    <path path_name="u_FDMA_axi_araddr_reg[0]">
+      <src_node block_name="u_FDMA_axi_araddr_reg[0]" output_port_name="qx"/>
+      <middle_node block_name="carry_32_ADD_0" input_port_name="b" output_port_name="co"/>
+      <middle_node block_name="carry_32_ADD_1" input_port_name="ci" output_port_name="co"/>
+      <middle_node block_name="carry_32_ADD_2" input_port_name="ci" output_port_name="co"/>
+      <middle_node block_name="carry_32_ADD_3" input_port_name="ci" output_port_name="co"/>
+      <middle_node block_name="carry_32_ADD_4" input_port_name="ci" output_port_name="co"/>
+      <middle_node block_name="carry_32_ADD_5" input_port_name="ci" output_port_name="co"/>
+      <middle_node block_name="carry_32_ADD_6" input_port_name="ci" output_port_name="co"/>
+      <middle_node block_name="carry_32_ADD_7" input_port_name="ci" output_port_name="co"/>
+      <middle_node block_name="carry_32_ADD_8" input_port_name="ci" output_port_name="co"/>
+      <middle_node block_name="carry_32_ADD_9" input_port_name="ci" output_port_name="co"/>
+      <middle_node block_name="carry_32_ADD_10" input_port_name="ci" output_port_name="co"/>
+      <middle_node block_name="carry_32_ADD_11" input_port_name="ci" output_port_name="co"/>
+      <middle_node block_name="carry_32_ADD_12" input_port_name="ci" output_port_name="co"/>
+      <middle_node block_name="carry_32_ADD_13" input_port_name="ci" output_port_name="co"/>
+      <middle_node block_name="carry_32_ADD_14" input_port_name="ci" output_port_name="co"/>
+      <middle_node block_name="carry_32_ADD_15" input_port_name="ci" output_port_name="co"/>
+      <middle_node block_name="carry_32_ADD_16" input_port_name="ci" output_port_name="co"/>
+      <middle_node block_name="carry_32_ADD_17" input_port_name="ci" output_port_name="co"/>
+      <middle_node block_name="carry_32_ADD_18" input_port_name="ci" output_port_name="co"/>
+      <middle_node block_name="carry_32_ADD_19" input_port_name="ci" output_port_name="co"/>
+      <middle_node block_name="carry_32_ADD_20" input_port_name="ci" output_port_name="co"/>
+      <middle_node block_name="carry_32_ADD_21" input_port_name="ci" output_port_name="co"/>
+      <middle_node block_name="carry_32_ADD_22" input_port_name="ci" output_port_name="co"/>
+      <middle_node block_name="carry_32_ADD_23" input_port_name="ci" output_port_name="co"/>
+      <middle_node block_name="carry_32_ADD_24" input_port_name="ci" output_port_name="co"/>
+      <middle_node block_name="carry_32_ADD_25" input_port_name="ci" output_port_name="co"/>
+      <middle_node block_name="carry_32_ADD_26" input_port_name="ci" output_port_name="co"/>
+      <middle_node block_name="carry_32_ADD_27" input_port_name="ci" output_port_name="co"/>
+      <middle_node block_name="carry_32_ADD_28" input_port_name="ci" output_port_name="co"/>
+      <middle_node block_name="carry_32_ADD_29" input_port_name="ci" output_port_name="co"/>
+      <middle_node block_name="carry_32_ADD_30" input_port_name="ci" output_port_name="co"/>
+      <middle_node block_name="carry_32_ADD_31" input_port_name="ci" output_port_name="s"/>
+      <middle_node block_name="ii05770" input_port_name="f0" output_port_name="xy"/>
+      <dst_node block_name="u_FDMA_axi_araddr_reg[31]" input_port_name="di"/>
+    </path>
+  </critical_path>
+
+</annotation>

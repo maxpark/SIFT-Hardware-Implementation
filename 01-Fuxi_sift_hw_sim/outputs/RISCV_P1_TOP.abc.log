@@ -1,0 +1,128 @@
+-----------------------------------------------------------------------------
+Fuxi abcgen Tool Version fx2020a win64 Build 20210601-10:36:56
+Copyright (C) 2017-2021 Hercules Microelectronics Co., Ltd. All rights reserved.
+-----------------------------------------------------------------------------
+Run started on Tuesday, 14 June 22, at 22:44:24
+I/00053: Input APA file: outputs/RISCV_P1_TOP.apa.
+I/00054: Input ARA file: outputs/RISCV_P1_TOP.ara.
+I/00055: Input AOC file: RISCV_P1_TOP.aoc.
+I/00056: Load Netlist file: outputs/RISCV_P1_TOP.arv.
+I/00059: Load user library: D:/CreateIC/Fuxi/Software/data/catalog/P1/primitive_lib.v.
+I/00025: Loading DeviceDB ... 
+I/00026: Loading DeviceDB finished. 
+I/00039: Processing placed cells ... 
+W/00029: Internal warning: Missing config item for 'BRAM18KV1: emb5k_1_inst'.
+W/00029: Internal warning: Missing config item for 'BRAM18KV1: emb5k_2_inst'.
+W/00029: Internal warning: Missing config item for 'BRAM18KV1: emb5k_3_inst'.
+W/00029: Internal warning: Missing config item for 'BRAM18KV1: emb5k_4_inst'.
+W/00029: Internal warning: Missing config item for 'BRAM18KV1: emb9k_1_inst'.
+W/00029: Internal warning: Missing config item for 'BRAM18KV1: emb9k_2_inst'.
+W/00029: Internal warning: Missing config item for 'BRAM18KV1: emb5k_1_inst'.
+W/00029: Internal warning: Missing config item for 'BRAM18KV1: emb5k_2_inst'.
+W/00029: Internal warning: Missing config item for 'BRAM18KV1: emb5k_3_inst'.
+W/00029: Internal warning: Missing config item for 'BRAM18KV1: emb5k_4_inst'.
+W/00029: Internal warning: Missing config item for 'BRAM18KV1: emb9k_1_inst'.
+W/00029: Internal warning: Missing config item for 'BRAM18KV1: emb9k_2_inst'.
+W/00029: Internal warning: Missing config item for 'BRAM18KV1: emb5k_1_inst'.
+W/00029: Internal warning: Missing config item for 'BRAM18KV1: emb5k_2_inst'.
+W/00029: Internal warning: Missing config item for 'BRAM18KV1: emb5k_3_inst'.
+W/00029: Internal warning: Missing config item for 'BRAM18KV1: emb5k_4_inst'.
+W/00029: Internal warning: Missing config item for 'BRAM18KV1: emb9k_1_inst'.
+W/00029: Internal warning: Missing config item for 'BRAM18KV1: emb9k_2_inst'.
+I/00041: Processing placed cells finished. 
+I/00045: Processing routed nets ... 
+W/00036: Unroutable mux uw_ddr.u_ddr_tile.ddr.u_ddr.u_dfi_muxo(CFGMUX2S1_340) in net u_ddr_v1_u_inst_u_ddrc|o_p1[26]_net.
+W/00036: Unroutable mux uw_ddr.u_ddr_tile.ddr.u_ddr.u_dfi_muxo(CFGMUX2S1_340) in net u_ddr_v1_u_inst_u_ddrc|o_p1[0]_net.
+W/00036: Unroutable mux uw_ddr.u_ddr_tile.ddr.u_ddr.u_dfi_muxo(CFGMUX2S1_340) in net u_ddr_v1_u_inst_u_ddrc|o_p1[32]_net.
+W/00036: Unroutable mux uw_ddr.u_ddr_tile.ddr.u_ddr.u_dfi_muxo(CFGMUX2S1_340) in net u_ddr_v1_u_inst_u_ddrc|o_p1[24]_net.
+W/00036: Unroutable mux uw_ddr.u_ddr_tile.ddr.u_ddr.u_dfi_muxo(CFGMUX2S1_340) in net u_ddr_v1_u_inst_u_ddrc|o_p1[29]_net.
+W/00036: Unroutable mux uw_ddr.u_ddr_tile.ddr.u_ddr.u_dfi_muxo(CFGMUX2S1_340) in net u_ddr_v1_u_inst_u_ddrc|o_p1[30]_net.
+W/00036: Unroutable mux uw_ddr.u_ddr_tile.ddr.u_ddr.u_dfi_muxo(CFGMUX2S1_340) in net u_ddr_v1_u_inst_u_ddrc|o_p1[168]_net.
+W/00036: Unroutable mux uw_ddr.u_ddr_tile.ddr.u_ddr.u_dfi_muxo(CFGMUX2S1_340) in net u_ddr_v1_u_inst_u_ddrc|o_p1[35]_net.
+W/00036: Unroutable mux uw_ddr.u_ddr_tile.ddr.u_ddr.u_dfi_muxo(CFGMUX2S1_340) in net u_ddr_v1_u_inst_u_ddrc|o_p1[22]_net.
+W/00036: Unroutable mux uw_ddr.u_ddr_tile.ddr.u_ddr.u_dfi_muxo(CFGMUX2S1_340) in net u_ddr_v1_u_inst_u_ddrc|o_p1[27]_net.
+W/00036: Unroutable mux uw_ddr.u_ddr_tile.ddr.u_ddr.u_dfi_muxo(CFGMUX2S1_340) in net u_ddr_v1_u_inst_u_ddrc|o_p1[1]_net.
+W/00036: Unroutable mux uw_ddr.u_ddr_tile.ddr.u_ddr.u_dfi_muxo(CFGMUX2S1_340) in net u_ddr_v1_u_inst_u_ddrc|o_p1[33]_net.
+W/00036: Unroutable mux uw_ddr.u_ddr_tile.ddr.u_ddr.u_dfi_muxo(CFGMUX2S1_340) in net u_ddr_v1_u_inst_u_ddrc|o_p1[25]_net.
+W/00036: Unroutable mux uw_ddr.u_ddr_tile.ddr.u_ddr.u_dfi_muxo(CFGMUX2S1_340) in net u_ddr_v1_u_inst_u_ddrc|o_p1[31]_net.
+W/00036: Unroutable mux uw_ddr.u_ddr_tile.ddr.u_ddr.u_dfi_muxo(CFGMUX2S1_340) in net u_ddr_v1_u_inst_u_ddrc|o_p1[169]_net.
+W/00036: Unroutable mux uw_ddr.u_ddr_tile.ddr.u_ddr.u_dfi_muxo(CFGMUX2S1_340) in net u_ddr_v1_u_inst_u_ddrc|o_p1[36]_net.
+W/00036: Unroutable mux uw_ddr.u_ddr_tile.ddr.u_ddr.u_dfi_muxo(CFGMUX2S1_340) in net u_ddr_v1_u_inst_u_ddrc|o_p1[23]_net.
+W/00036: Unroutable mux uw_ddr.u_ddr_tile.ddr.u_ddr.u_dfi_muxo(CFGMUX2S1_340) in net u_ddr_v1_u_inst_u_ddrc|o_p1[28]_net.
+W/00036: Unroutable mux uw_ddr.u_ddr_tile.ddr.u_ddr.u_dfi_muxo(CFGMUX2S1_340) in net u_ddr_v1_u_inst_u_ddrc|o_p1[34]_net.
+W/00036: Unroutable mux uw_ddr.u_ddr_tile.ddr.u_ddr.u_dfi_muxo(CFGMUX2S1_340) in net u_ddr_v1_u_inst_u_ddrc|o_p1[21]_net.
+I/00046: Processing routed nets finished. 
+I/00047: Processing IO constraintion ... 
+I/00090: The parameter 'IN_DEL_0' of signal 'CLK_12M(CVLVDS)' is configed to 4'b0000 according IO settings '0'.
+I/00090: The parameter 'IN_DEL_EN_0' of signal 'CLK_12M(CVLVDS)' is configed to 1'b0 according IO settings '0'.
+I/00090: The parameter 'KEEP_0' of signal 'CLK_12M(CVLVDS)' is configed to 2'b00 according IO settings 'none'.
+I/00090: The parameter 'OUT_DEL_0' of signal 'CLK_12M(CVLVDS)' is configed to 4'b0000 according IO settings '0'.
+I/00090: The parameter 'OUT_DEL_EN_0' of signal 'CLK_12M(CVLVDS)' is configed to 1'b0 according IO settings '0'.
+I/00090: The parameter 'IN_DEL_0' of signal 'CLK_25M(CVLVDS)' is configed to 4'b0000 according IO settings '0'.
+I/00090: The parameter 'IN_DEL_EN_0' of signal 'CLK_25M(CVLVDS)' is configed to 1'b0 according IO settings '0'.
+I/00090: The parameter 'KEEP_0' of signal 'CLK_25M(CVLVDS)' is configed to 2'b00 according IO settings 'none'.
+I/00090: The parameter 'OUT_DEL_0' of signal 'CLK_25M(CVLVDS)' is configed to 4'b0000 according IO settings '0'.
+I/00090: The parameter 'OUT_DEL_EN_0' of signal 'CLK_25M(CVLVDS)' is configed to 1'b0 according IO settings '0'.
+I/00090: The parameter 'IN_DEL_0' of signal 'RST_N(CVLVDS)' is configed to 4'b0000 according IO settings '0'.
+I/00090: The parameter 'IN_DEL_EN_0' of signal 'RST_N(CVLVDS)' is configed to 1'b0 according IO settings '0'.
+I/00090: The parameter 'KEEP_0' of signal 'RST_N(CVLVDS)' is configed to 2'b00 according IO settings 'none'.
+I/00090: The parameter 'OUT_DEL_0' of signal 'RST_N(CVLVDS)' is configed to 4'b0000 according IO settings '0'.
+I/00090: The parameter 'OUT_DEL_EN_0' of signal 'RST_N(CVLVDS)' is configed to 1'b0 according IO settings '0'.
+I/00090: The parameter 'CFG_KEEP' of signal 'i2c0_scl(BASIC_IO)' is configed to 2'b00 according IO settings 'none'.
+I/00090: The parameter 'CFG_NDR' of signal 'i2c0_scl(BASIC_IO)' is configed to 4'b1000 according IO settings '2.5V|8ma'.
+I/00090: The parameter 'CFG_PDR' of signal 'i2c0_scl(BASIC_IO)' is configed to 4'b1000 according IO settings '2.5V|8ma'.
+I/00090: The parameter 'CFG_KEEP' of signal 'i2c0_sda(BASIC_IO)' is configed to 2'b00 according IO settings 'none'.
+I/00090: The parameter 'CFG_NDR' of signal 'i2c0_sda(BASIC_IO)' is configed to 4'b1000 according IO settings '2.5V|8ma'.
+I/00090: The parameter 'CFG_PDR' of signal 'i2c0_sda(BASIC_IO)' is configed to 4'b1000 according IO settings '2.5V|8ma'.
+I/00090: The parameter 'CFG_KEEP' of signal 'jtag_tck(BASIC_IO)' is configed to 2'b00 according IO settings 'none'.
+I/00090: The parameter 'CFG_KEEP' of signal 'jtag_tdi(BASIC_IO)' is configed to 2'b00 according IO settings 'none'.
+I/00090: The parameter 'CFG_NDR' of signal 'jtag_tdo(BASIC_IO)' is configed to 4'b1000 according IO settings '2.5V|8ma'.
+I/00090: The parameter 'CFG_PDR' of signal 'jtag_tdo(BASIC_IO)' is configed to 4'b1000 according IO settings '2.5V|8ma'.
+I/00090: The parameter 'CFG_KEEP' of signal 'jtag_tms(BASIC_IO)' is configed to 2'b00 according IO settings 'none'.
+I/00090: The parameter 'IN_DEL_0' of signal 'led_0_(CVLVDS)' is configed to 4'b0000 according IO settings '0'.
+I/00090: The parameter 'IN_DEL_EN_0' of signal 'led_0_(CVLVDS)' is configed to 1'b0 according IO settings '0'.
+I/00090: The parameter 'NDR_0' of signal 'led_0_(CVLVDS)' is configed to 4'b1000 according IO settings '2.5V|8ma'.
+I/00090: The parameter 'OUT_DEL_0' of signal 'led_0_(CVLVDS)' is configed to 4'b0000 according IO settings '0'.
+I/00090: The parameter 'OUT_DEL_EN_0' of signal 'led_0_(CVLVDS)' is configed to 1'b0 according IO settings '0'.
+I/00090: The parameter 'PDR_0' of signal 'led_0_(CVLVDS)' is configed to 4'b1000 according IO settings '2.5V|8ma'.
+I/00090: The parameter 'IN_DEL_1' of signal 'led_1_(CVLVDS)' is configed to 4'b0000 according IO settings '0'.
+I/00090: The parameter 'IN_DEL_EN_1' of signal 'led_1_(CVLVDS)' is configed to 1'b0 according IO settings '0'.
+I/00090: The parameter 'NDR_1' of signal 'led_1_(CVLVDS)' is configed to 4'b1000 according IO settings '2.5V|8ma'.
+I/00090: The parameter 'OUT_DEL_1' of signal 'led_1_(CVLVDS)' is configed to 4'b0000 according IO settings '0'.
+I/00090: The parameter 'OUT_DEL_EN_1' of signal 'led_1_(CVLVDS)' is configed to 1'b0 according IO settings '0'.
+I/00090: The parameter 'PDR_1' of signal 'led_1_(CVLVDS)' is configed to 4'b1000 according IO settings '2.5V|8ma'.
+I/00090: The parameter 'IN_DEL_0' of signal 'led_2_(CVLVDS)' is configed to 4'b0000 according IO settings '0'.
+I/00090: The parameter 'IN_DEL_EN_0' of signal 'led_2_(CVLVDS)' is configed to 1'b0 according IO settings '0'.
+I/00090: The parameter 'NDR_0' of signal 'led_2_(CVLVDS)' is configed to 4'b1000 according IO settings '2.5V|8ma'.
+I/00090: The parameter 'OUT_DEL_0' of signal 'led_2_(CVLVDS)' is configed to 4'b0000 according IO settings '0'.
+I/00090: The parameter 'OUT_DEL_EN_0' of signal 'led_2_(CVLVDS)' is configed to 1'b0 according IO settings '0'.
+I/00090: The parameter 'PDR_0' of signal 'led_2_(CVLVDS)' is configed to 4'b1000 according IO settings '2.5V|8ma'.
+I/00090: The parameter 'IN_DEL_1' of signal 'led_3_(CVLVDS)' is configed to 4'b0000 according IO settings '0'.
+I/00090: The parameter 'IN_DEL_EN_1' of signal 'led_3_(CVLVDS)' is configed to 1'b0 according IO settings '0'.
+I/00090: The parameter 'NDR_1' of signal 'led_3_(CVLVDS)' is configed to 4'b1000 according IO settings '2.5V|8ma'.
+I/00090: The parameter 'OUT_DEL_1' of signal 'led_3_(CVLVDS)' is configed to 4'b0000 according IO settings '0'.
+I/00090: The parameter 'OUT_DEL_EN_1' of signal 'led_3_(CVLVDS)' is configed to 1'b0 according IO settings '0'.
+I/00090: The parameter 'PDR_1' of signal 'led_3_(CVLVDS)' is configed to 4'b1000 according IO settings '2.5V|8ma'.
+I/00090: The parameter 'CFG_NDR' of signal 'spi0_clk(BASIC_IO)' is configed to 4'b1000 according IO settings '2.5V|8ma'.
+I/00090: The parameter 'CFG_PDR' of signal 'spi0_clk(BASIC_IO)' is configed to 4'b1000 according IO settings '2.5V|8ma'.
+I/00090: The parameter 'CFG_KEEP' of signal 'spi0_miso(BASIC_IO)' is configed to 2'b00 according IO settings 'none'.
+I/00090: The parameter 'CFG_NDR' of signal 'spi0_mosi(BASIC_IO)' is configed to 4'b1000 according IO settings '2.5V|8ma'.
+I/00090: The parameter 'CFG_PDR' of signal 'spi0_mosi(BASIC_IO)' is configed to 4'b1000 according IO settings '2.5V|8ma'.
+I/00090: The parameter 'CFG_NDR' of signal 'spi0_scl(BASIC_IO)' is configed to 4'b1000 according IO settings '2.5V|8ma'.
+I/00090: The parameter 'CFG_PDR' of signal 'spi0_scl(BASIC_IO)' is configed to 4'b1000 according IO settings '2.5V|8ma'.
+I/00090: The parameter 'IN_DEL_1' of signal 'uart0_rxd(CVLVDS)' is configed to 4'b0000 according IO settings '0'.
+I/00090: The parameter 'IN_DEL_EN_1' of signal 'uart0_rxd(CVLVDS)' is configed to 1'b0 according IO settings '0'.
+I/00090: The parameter 'KEEP_1' of signal 'uart0_rxd(CVLVDS)' is configed to 2'b00 according IO settings 'none'.
+I/00090: The parameter 'OUT_DEL_1' of signal 'uart0_rxd(CVLVDS)' is configed to 4'b0000 according IO settings '0'.
+I/00090: The parameter 'OUT_DEL_EN_1' of signal 'uart0_rxd(CVLVDS)' is configed to 1'b0 according IO settings '0'.
+I/00090: The parameter 'IN_DEL_0' of signal 'uart0_txd(CVLVDS)' is configed to 4'b0000 according IO settings '0'.
+I/00090: The parameter 'IN_DEL_EN_0' of signal 'uart0_txd(CVLVDS)' is configed to 1'b0 according IO settings '0'.
+I/00090: The parameter 'NDR_0' of signal 'uart0_txd(CVLVDS)' is configed to 4'b1100 according IO settings '1.8V|8ma'.
+I/00090: The parameter 'OUT_DEL_0' of signal 'uart0_txd(CVLVDS)' is configed to 4'b0000 according IO settings '0'.
+I/00090: The parameter 'OUT_DEL_EN_0' of signal 'uart0_txd(CVLVDS)' is configed to 1'b0 according IO settings '0'.
+I/00090: The parameter 'PDR_0' of signal 'uart0_txd(CVLVDS)' is configed to 4'b1100 according IO settings '1.8V|8ma'.
+I/00050: Processing IO constraintion finished. 
+I/00052: Output ABC file to: outputs/RISCV_P1_TOP.abc.
+Fuxi fx2020a win64 abcgen was successful!
+38 warning(s), 0 error(s).
+CPU Time: 3.000 seconds, Peak Memory: 501 MB

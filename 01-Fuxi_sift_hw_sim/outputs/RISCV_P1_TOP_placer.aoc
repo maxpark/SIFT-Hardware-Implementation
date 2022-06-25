@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aoc version="2.3" device="P1P060N0V324C7">
+	<ioConstraint>
+		<IO signal_name="CLK_12M" location="IO_21P_GC_203" inst_name="io_CLK_12M_inst" direction="input" operation_mode="normal"/>
+		<IO signal_name="CLK_25M" location="IO_28P_GC_204" inst_name="io_CLK_25M_inst" direction="input" operation_mode="clock"/>
+		<IO signal_name="RST_N" location="IO_22P_303" inst_name="io_RST_N_inst" direction="input" operation_mode="normal"/>
+		<IO signal_name="i2c0_scl" location="IO_21_PS_D10_4" inst_name="io_i2c0_scl_inst" direction="inout" operation_mode="normal"/>
+		<IO signal_name="i2c0_sda" location="IO_19_PS_D12_4" inst_name="io_i2c0_sda_inst" direction="inout" operation_mode="normal"/>
+		<IO signal_name="jtag_tck" location="IO_14_SEU_FAIL_4" inst_name="io_jtag_tck_inst" direction="input" operation_mode="normal"/>
+		<IO signal_name="jtag_tdi" location="IO_17_PS_D14_4" inst_name="io_jtag_tdi_inst" direction="input" operation_mode="normal"/>
+		<IO signal_name="jtag_tdo" location="IO_15_PS_BUSY_4" inst_name="io_jtag_tdo_inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="jtag_tms" location="IO_16_PS_D15_4" inst_name="io_jtag_tms_inst" direction="input" operation_mode="normal"/>
+		<IO signal_name="led_0_" location="IO_44P_206" inst_name="io_led_0__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="led_1_" location="IO_44N_206" inst_name="io_led_1__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="led_2_" location="IO_42P_206" inst_name="io_led_2__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="led_3_" location="IO_42N_206" inst_name="io_led_3__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="spi0_clk" location="IO_27_PS_D4_4" inst_name="io_spi0_clk_inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="spi0_miso" location="IO_25_PS_D6_4" inst_name="io_spi0_miso_inst" direction="input" operation_mode="normal"/>
+		<IO signal_name="spi0_mosi" location="IO_24_PS_D7_4" inst_name="io_spi0_mosi_inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="spi0_scl" location="IO_26_PS_D5_4" inst_name="io_spi0_scl_inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="uart0_rxd" location="IO_32N_304" inst_name="io_uart0_rxd_inst" direction="input" operation_mode="normal"/>
+		<IO signal_name="uart0_txd" location="IO_32P_304" inst_name="io_uart0_txd_inst" direction="output" operation_mode="normal"/>
+	</ioConstraint>
+	<placeConstraint>
+		<annotation version="2.3" device="P1P060N0V324C7">
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_jtag_tap_fsm_state_reg[0]" loc="u_array.C23R1.C4R9.c1r0_le_tile_r.le_guts.lp1.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_jtag_tap_fsm_state_reg[1]" loc="u_array.C23R1.C4R9.c1r0_le_tile_r.le_guts.lp1.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_jtag_tap_fsm_state_reg[2]" loc="u_array.C23R1.C4R9.c1r0_le_tile_r.le_guts.lp0.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_flow_buy_toggle_1_outputArea_flow_regNext_valid_reg" loc="u_array.C23R1.C1R42.c1r0_le_tile.le_guts.lp0.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_jtag_tap_fsm_state_reg[3]" loc="u_array.C23R1.C4R9.c1r0_le_tile_r.le_guts.lp0.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_flow_buy_toggle_1_inputArea_data_last_reg" loc="u_array.C23R1.C0R29.c1r0_le_tile_r.le_guts.lp0.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_jtag_tap_instruction_reg[0]" loc="u_array.C23R1.C3R11.c1r0_le_tile.le_guts.lp0.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_jtag_tap_instruction_reg[1]" loc="u_array.C23R1.C5R11.c1r0_le_tile.le_guts.lp0.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_jtag_tap_instruction_reg[2]" loc="u_array.C23R1.C3R11.c1r0_le_tile.le_guts.lp0.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_jtag_tap_instruction_reg[3]" loc="u_array.C23R1.C3R11.c1r0_le_tile.le_guts.lp1.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_flow_buy_toggle_1_inputArea_target_buffercc_buffers_0_reg" loc="u_array.C12R1.C9R37.c1r0_le_tile.le_guts.lp0.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp3_reg[0]" loc="u_array.C23R1.C5R7.c1r0_le_tile.le_guts.lp0.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp3_reg[1]" loc="u_array.C23R1.C5R7.c1r0_le_tile.le_guts.lp1.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp3_reg[2]" loc="u_array.C23R1.C5R7.c1r0_le_tile.le_guts.lp0.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp3_reg[3]" loc="u_array.C23R1.C6R7.c1r0_le_tile_r.le_guts.lp0.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp3_reg[4]" loc="u_array.C23R1.C5R6.c1r0_le_tile.le_guts.lp3.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp3_reg[5]" loc="u_array.C23R1.C5R6.c1r0_le_tile.le_guts.lp3.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp3_reg[6]" loc="u_array.C23R1.C5R6.c1r0_le_tile.le_guts.lp2.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp3_reg[7]" loc="u_array.C23R1.C5R6.c1r0_le_tile.le_guts.lp2.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp3_reg[8]" loc="u_array.C23R1.C5R6.c1r0_le_tile.le_guts.lp1.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp3_reg[9]" loc="u_array.C23R1.C6R7.c1r0_le_tile_r.le_guts.lp0.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_flow_buy_toggle_1_inputArea_data_fragment_reg[0]" loc="u_array.C23R1.C1R38.c1r0_le_tile.le_guts.lp0.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_system_rsp_data_reg[0]" loc="u_array.C23R1.C1R22.c1r0_le_tile.le_guts.lp0.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_system_rsp_data_reg[1]" loc="u_array.C23R1.C3R23.c1r0_le_tile.le_guts.lp0.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_system_rsp_data_reg[2]" loc="u_array.C23R1.C1R22.c1r0_le_tile.le_guts.lp0.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_system_rsp_data_reg[3]" loc="u_array.C23R1.C1R22.c1r0_le_tile.le_guts.lp1.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_system_rsp_data_reg[4]" loc="u_array.C23R1.C3R23.c1r0_le_tile.le_guts.lp0.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_system_rsp_data_reg[5]" loc="u_array.C23R1.C6R20.c1r0_le_tile_r.le_guts.lp0.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_system_rsp_data_reg[6]" loc="u_array.C23R1.C6R21.c1r0_le_tile_r.le_guts.lp0.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_system_rsp_data_reg[7]" loc="u_array.C23R1.C6R19.c1r0_le_tile_r.le_guts.lp0.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_system_rsp_data_reg[8]" loc="u_array.C23R1.C6R20.c1r0_le_tile_r.le_guts.lp0.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_system_rsp_data_reg[9]" loc="u_array.C23R1.C6R21.c1r0_le_tile_r.le_guts.lp1.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp7_reg" loc="u_array.C23R1.C1R26.c1r0_le_tile.le_guts.lp0.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_system_rsp_data_reg[10]" loc="u_array.C23R1.C5R21.c1r0_le_tile.le_guts.lp0.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_system_rsp_data_reg[11]" loc="u_array.C23R1.C6R21.c1r0_le_tile_r.le_guts.lp0.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_system_rsp_data_reg[12]" loc="u_array.C23R1.C6R21.c1r0_le_tile_r.le_guts.lp2.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_system_rsp_data_reg[13]" loc="u_array.C23R1.C5R22.c1r0_le_tile.le_guts.lp0.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_system_rsp_data_reg[14]" loc="u_array.C23R1.C6R21.c1r0_le_tile_r.le_guts.lp1.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_system_rsp_data_reg[15]" loc="u_array.C23R1.C5R21.c1r0_le_tile.le_guts.lp0.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_system_rsp_data_reg[16]" loc="u_array.C23R1.C4R21.c1r0_le_tile_r.le_guts.lp0.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_system_rsp_data_reg[17]" loc="u_array.C23R1.C6R21.c1r0_le_tile_r.le_guts.lp0.reg9"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_system_rsp_data_reg[18]" loc="u_array.C23R1.C6R21.c1r0_le_tile_r.le_guts.lp3.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_system_rsp_data_reg[20]" loc="u_array.C23R1.C6R21.c1r0_le_tile_r.le_guts.lp2.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_system_rsp_data_reg[19]" loc="u_array.C23R1.C6R21.c1r0_le_tile_r.le_guts.lp1.reg9"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_system_rsp_data_reg[21]" loc="u_array.C23R1.C6R21.c1r0_le_tile_r.le_guts.lp0.reg8"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_system_rsp_data_reg[22]" loc="u_array.C23R1.C6R21.c1r0_le_tile_r.le_guts.lp1.reg8"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_system_rsp_data_reg[23]" loc="u_array.C23R1.C6R21.c1r0_le_tile_r.le_guts.lp3.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_system_rsp_data_reg[24]" loc="u_array.C23R1.C6R23.c1r0_le_tile_r.le_guts.lp0.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_system_rsp_data_reg[25]" loc="u_array.C23R1.C6R23.c1r0_le_tile_r.le_guts.lp0.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_system_rsp_data_reg[26]" loc="u_array.C23R1.C5R23.c1r0_le_tile.le_guts.lp0.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_system_rsp_data_reg[27]" loc="u_array.C23R1.C5R23.c1r0_le_tile.le_guts.lp0.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_system_rsp_data_reg[28]" loc="u_array.C23R1.C6R23.c1r0_le_tile_r.le_guts.lp2.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_system_rsp_data_reg[30]" loc="u_array.C23R1.C6R23.c1r0_le_tile_r.le_guts.lp1.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_system_rsp_data_reg[29]" loc="u_array.C23R1.C6R23.c1r0_le_tile_r.le_guts.lp1.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_system_rsp_data_reg[31]" loc="u_array.C23R1.C6R24.c1r0_le_tile_r.le_guts.lp0.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_flow_buy_toggle_1_outputArea_flow_regNext_payload_last_reg" loc="u_array.C23R1.C1R41.c1r0_le_tile.le_guts.lp0.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp3_reg[10]" loc="u_array.C23R1.C5R6.c1r0_le_tile.le_guts.lp0.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp3_reg[11]" loc="u_array.C23R1.C4R7.c1r0_le_tile_r.le_guts.lp3.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp3_reg[12]" loc="u_array.C23R1.C4R7.c1r0_le_tile_r.le_guts.lp2.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp3_reg[13]" loc="u_array.C23R1.C4R7.c1r0_le_tile_r.le_guts.lp2.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp3_reg[14]" loc="u_array.C23R1.C4R7.c1r0_le_tile_r.le_guts.lp1.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp3_reg[15]" loc="u_array.C23R1.C5R6.c1r0_le_tile.le_guts.lp0.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp3_reg[16]" loc="u_array.C23R1.C5R7.c1r0_le_tile.le_guts.lp3.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp3_reg[17]" loc="u_array.C23R1.C5R7.c1r0_le_tile.le_guts.lp3.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp3_reg[18]" loc="u_array.C23R1.C5R7.c1r0_le_tile.le_guts.lp2.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp3_reg[20]" loc="u_array.C23R1.C5R7.c1r0_le_tile.le_guts.lp1.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp3_reg[19]" loc="u_array.C23R1.C5R7.c1r0_le_tile.le_guts.lp2.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp3_reg[21]" loc="u_array.C23R1.C5R6.c1r0_le_tile.le_guts.lp1.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp3_reg[22]" loc="u_array.C23R1.C6R7.c1r0_le_tile_r.le_guts.lp3.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp3_reg[23]" loc="u_array.C23R1.C6R7.c1r0_le_tile_r.le_guts.lp3.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp3_reg[24]" loc="u_array.C23R1.C6R7.c1r0_le_tile_r.le_guts.lp2.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp3_reg[25]" loc="u_array.C23R1.C6R7.c1r0_le_tile_r.le_guts.lp2.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp3_reg[26]" loc="u_array.C23R1.C6R7.c1r0_le_tile_r.le_guts.lp1.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp3_reg[27]" loc="u_array.C23R1.C6R7.c1r0_le_tile_r.le_guts.lp1.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp3_reg[28]" loc="u_array.C23R1.C4R7.c1r0_le_tile_r.le_guts.lp1.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp3_reg[30]" loc="u_array.C23R1.C4R7.c1r0_le_tile_r.le_guts.lp0.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp3_reg[29]" loc="u_array.C23R1.C4R7.c1r0_le_tile_r.le_guts.lp0.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp3_reg[31]" loc="u_array.C23R1.C5R7.c1r0_le_tile.le_guts.lp0.reg8"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_jtag_tap_instructionShift_reg[0]" loc="u_array.C23R1.C5R10.c1r0_le_tile.le_guts.lp0.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_jtag_tap_instructionShift_reg[1]" loc="u_array.C23R1.C4R8.c1r0_le_tile_r.le_guts.lp0.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_jtag_tap_instructionShift_reg[2]" loc="u_array.C23R1.C4R8.c1r0_le_tile_r.le_guts.lp0.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_jtag_tap_instructionShift_reg[3]" loc="u_array.C23R1.C5R10.c1r0_le_tile.le_guts.lp0.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_flow_buy_toggle_1_inputArea_target_reg" loc="u_array.C12R1.C6R32.c1r0_le_tile_r.le_guts.lp0.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp10_reg[10]" loc="u_array.C23R1.C4R10.c1r0_le_tile_r.le_guts.lp0.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp10_reg[11]" loc="u_array.C23R1.C3R10.c1r0_le_tile.le_guts.lp3.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp10_reg[12]" loc="u_array.C23R1.C3R10.c1r0_le_tile.le_guts.lp3.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp10_reg[13]" loc="u_array.C23R1.C3R10.c1r0_le_tile.le_guts.lp2.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp10_reg[14]" loc="u_array.C23R1.C3R10.c1r0_le_tile.le_guts.lp2.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp10_reg[15]" loc="u_array.C23R1.C3R10.c1r0_le_tile.le_guts.lp1.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp10_reg[16]" loc="u_array.C23R1.C3R10.c1r0_le_tile.le_guts.lp1.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp10_reg[17]" loc="u_array.C23R1.C3R10.c1r0_le_tile.le_guts.lp0.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp10_reg[18]" loc="u_array.C23R1.C3R10.c1r0_le_tile.le_guts.lp0.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp10_reg[20]" loc="u_array.C23R1.C4R10.c1r0_le_tile_r.le_guts.lp2.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp10_reg[19]" loc="u_array.C23R1.C4R10.c1r0_le_tile_r.le_guts.lp3.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp10_reg[21]" loc="u_array.C23R1.C4R10.c1r0_le_tile_r.le_guts.lp2.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp10_reg[22]" loc="u_array.C23R1.C6R10.c1r0_le_tile_r.le_guts.lp2.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp10_reg[23]" loc="u_array.C23R1.C6R10.c1r0_le_tile_r.le_guts.lp2.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp10_reg[24]" loc="u_array.C23R1.C6R10.c1r0_le_tile_r.le_guts.lp1.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp10_reg[25]" loc="u_array.C23R1.C6R10.c1r0_le_tile_r.le_guts.lp1.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp10_reg[26]" loc="u_array.C23R1.C4R10.c1r0_le_tile_r.le_guts.lp1.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp10_reg[27]" loc="u_array.C23R1.C4R12.c1r0_le_tile_r.le_guts.lp0.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp10_reg[28]" loc="u_array.C23R1.C4R12.c1r0_le_tile_r.le_guts.lp0.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp10_reg[30]" loc="u_array.C23R1.C4R11.c1r0_le_tile_r.le_guts.lp3.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp10_reg[29]" loc="u_array.C23R1.C4R11.c1r0_le_tile_r.le_guts.lp3.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp10_reg[31]" loc="u_array.C23R1.C4R11.c1r0_le_tile_r.le_guts.lp2.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp10_reg[32]" loc="u_array.C23R1.C4R11.c1r0_le_tile_r.le_guts.lp2.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp10_reg[33]" loc="u_array.C23R1.C4R10.c1r0_le_tile_r.le_guts.lp0.reg8"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_flow_buy_toggle_1_inputArea_target_buffercc_buffers_1_reg" loc="u_array.C12R1.C9R40.c1r0_le_tile.le_guts.lp0.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp10_reg[0]" loc="u_array.C23R1.C5R13.c1r0_le_tile.le_guts.lp0.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp10_reg[1]" loc="u_array.C23R1.C4R10.c1r0_le_tile_r.le_guts.lp3.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp10_reg[2]" loc="u_array.C23R1.C4R10.c1r0_le_tile_r.le_guts.lp1.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp10_reg[3]" loc="u_array.C23R1.C4R11.c1r0_le_tile_r.le_guts.lp1.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp10_reg[4]" loc="u_array.C23R1.C4R11.c1r0_le_tile_r.le_guts.lp1.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp10_reg[5]" loc="u_array.C23R1.C4R11.c1r0_le_tile_r.le_guts.lp0.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp10_reg[6]" loc="u_array.C23R1.C4R11.c1r0_le_tile_r.le_guts.lp0.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp10_reg[7]" loc="u_array.C23R1.C4R10.c1r0_le_tile_r.le_guts.lp0.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp10_reg[8]" loc="u_array.C23R1.C6R10.c1r0_le_tile_r.le_guts.lp0.reg1"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp10_reg[9]" loc="u_array.C23R1.C6R10.c1r0_le_tile_r.le_guts.lp0.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_flow_buy_toggle_1_outputArea_hit_reg" loc="u_array.C12R1.C9R41.c1r0_le_tile.le_guts.lp1.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_system_rsp_valid_reg" loc="u_array.C23R1.C1R23.c1r0_le_tile.le_guts.lp0.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_temp8_reg" loc="u_array.C23R1.C3R46.c1r0_le_tile.le_guts.lp0.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_flow_buy_toggle_1_outputArea_flow_regNext_payload_fragment_reg[0]" loc="u_array.C23R1.C4R41.c1r0_le_tile_r.le_guts.lp0.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_jtag_tap_tdoUnbufferd_regNext_reg" loc="u_array.C23R1.C5R25.c1r0_le_tile.le_guts.lp0.reg0"/>
+			<cell name="u_soc_wrap_u_vex_soc_jtag_bridge_ins_jtag_tap_bypass_reg" loc="u_array.C23R1.C4R35.c1r0_le_tile_r.le_guts.lp0.reg0"/>
+		</annotation>
+	</placeConstraint>
+</aoc>
+

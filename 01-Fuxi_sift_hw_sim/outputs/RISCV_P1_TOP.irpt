@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report version="1.0" ixc_file="outputs/ixplorer/HME_SOC.ixc" project_name="RISCV_P1_TOP">
+	<instance name="0">
+		<clock name="core_clk" index="0" fmax="78.2575" target_fmax="100" period="10" start="-210866803200000" end="-210866803200000" flow_status="2"/>
+		<clock name="memory_clk" index="0" fmax="72.6589" target_fmax="100" period="6.25" start="-210866803200000" end="-210866803200000" flow_status="2"/>
+	</instance>
+	<instance name="1">
+		<clock name="core_clk" index="1" fmax="78.4041" target_fmax="100" period="10" start="-210866803200000" end="-210866803200000" flow_status="2"/>
+		<clock name="memory_clk" index="1" fmax="75.2114" target_fmax="100" period="6.25626" start="-210866803200000" end="-210866803200000" flow_status="2"/>
+	</instance>
+	<instance name="2">
+		<clock name="core_clk" index="2" fmax="72.4045" target_fmax="100" period="10" start="-210866803200000" end="-210866803200000" flow_status="2"/>
+		<clock name="memory_clk" index="2" fmax="77.0229" target_fmax="100" period="6.28769" start="-210866803200000" end="-210866803200000" flow_status="2"/>
+	</instance>
+	<instance name="3">
+		<clock name="core_clk" index="3" fmax="76.3752" target_fmax="100" period="10" start="-210866803200000" end="-210866803200000" flow_status="2"/>
+		<clock name="memory_clk" index="3" fmax="76.1582" target_fmax="100" period="6.31929" start="-210866803200000" end="-210866803200000" flow_status="2"/>
+	</instance>
+	<instance name="4">
+		<clock name="core_clk" index="4" fmax="82.2297" target_fmax="100" period="10" start="-210866803200000" end="-210866803200000" flow_status="2"/>
+		<clock name="memory_clk" index="4" fmax="76.7355" target_fmax="100" period="6.35121" start="-210866803200000" end="-210866803200000" flow_status="2"/>
+	</instance>
+	<instance name="5">
+		<clock name="core_clk" index="5" fmax="76.4077" target_fmax="100" period="10" start="-210866803200000" end="-210866803200000" flow_status="2"/>
+		<clock name="memory_clk" index="5" fmax="74.9885" target_fmax="100" period="6.27514" start="-210866803200000" end="-210866803200000" flow_status="2"/>
+	</instance>
+	<instance name="6">
+		<clock name="core_clk" index="6" fmax="78.3786" target_fmax="100" period="10" start="-210866803200000" end="-210866803200000" flow_status="2"/>
+		<clock name="memory_clk" index="6" fmax="74.7418" target_fmax="100" period="6.26264" start="-210866803200000" end="-210866803200000" flow_status="2"/>
+	</instance>
+	<instance name="7">
+		<clock name="core_clk" index="7" fmax="80.1932" target_fmax="100" period="10" start="-210866803200000" end="-210866803200000" flow_status="2"/>
+		<clock name="memory_clk" index="7" fmax="73.735" target_fmax="100" period="6.29399" start="-210866803200000" end="-210866803200000" flow_status="2"/>
+	</instance>
+	<instance name="8">
+		<clock name="core_clk" index="8" fmax="81.1513" target_fmax="100" period="10" start="-210866803200000" end="-210866803200000" flow_status="2"/>
+		<clock name="memory_clk" index="8" fmax="74.3606" target_fmax="100" period="6.3003" start="-210866803200000" end="-210866803200000" flow_status="2"/>
+	</instance>
+	<instance name="9">
+		<clock name="core_clk" index="9" fmax="79.1459" target_fmax="100" period="10" start="-210866803200000" end="-210866803200000" flow_status="2"/>
+		<clock name="memory_clk" index="9" fmax="72.9097" target_fmax="100" period="6.30661" start="-210866803200000" end="-210866803200000" flow_status="2"/>
+	</instance>
+</report>
+
